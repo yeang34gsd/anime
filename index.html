@@ -1,110 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Estilos para el cuadro modal */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ccc;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-            max-width: 80%;
-            max-height: 80%;
-            overflow-y: auto;
-        }
-
-        /* Estilos para el fondo oscuro */
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 1;
-        }
-
-        /* Estilos para el botón de cerrar el modal */
-        .close-button {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            cursor: pointer;
-        }
-
-        /* Estilos para el botón de episodios */
-        #episodesButton {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            cursor: pointer;
-        }
-    </style>
+    <title>Reproductor de video</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funciones.js"></script>
 </head>
 <body>
-    <!-- Anime Cards (Ejemplo) -->
-    <section class="anime-card">
-        <img src="https://i.pinimg.com/236x/24/90/10/24901037368f35627b26dff859466d1c.jpg" alt="dragon ball">
-        <h2><a href="#">Dragon Ball</a></h2>
-        <p><a href="#" class="show-modal">Ver Anime</a></p>
-    </section>
-
-    <!-- Contenido principal -->
-    <div class="main-content">
-        <!-- Cuadro modal para el video -->
-        <div class="modal" id="videoModal">
-            <span class="close-button" id="closeVideoModal">&times;</span>
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/NnWUBHve1r4" title="🔶️ UN CHICO QUE SUFRIÓ BURL4S POR SU PESO ENCONTRÓ EL AMOR AL CONOCER UN GORILA -Anime Resumen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <button id="episodesButton">Episodios</button>
-        </div>
-
-        <!-- Fondo oscuro del modal -->
-        <div class="modal-overlay" id="modalOverlay"></div>
-    </div>
-
-    <!-- Código JavaScript para mostrar/ocultar el modal -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var showVideoButtons = document.querySelectorAll(".show-modal");
-            var videoModal = document.getElementById("videoModal");
-            var modalOverlay = document.getElementById("modalOverlay");
-            var closeVideoModal = document.getElementById("closeVideoModal");
-
-            // Función para mostrar el modal
-            function showModal() {
-                videoModal.style.display = "block";
-                modalOverlay.style.display = "block";
-            }
-
-            // Función para ocultar el modal
-            function closeModal() {
-                videoModal.style.display = "none";
-                modalOverlay.style.display = "none";
-            }
-
-            // Agregar evento de clic para mostrar el modal
-            showVideoButtons.forEach(function (button) {
-                button.addEventListener("click", showModal);
-            });
-
-            // Agregar evento de clic para ocultar el modal
-            closeVideoModal.addEventListener("click", closeModal);
-        });
-    </script>
+    <!-- Aquí va el contenido de tu página -->
 </body>
 </html>
+
+<video src="mi_video.mp4" controls width="600" height="400"></video>
+
+
+
+<video src="https://drive.google.com/uc?export=view&id=1a2b3c4d5e6f7g8h9i0j" controls width="600" height="400"></video>
 
 https://github.com/yeang34gsd/no.git
