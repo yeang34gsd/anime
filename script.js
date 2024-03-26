@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = image.imageUrl;
 
             const description = document.createElement('div');
-
             description.classList.add('description');
 
             description.textContent = image.description;
@@ -49,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 abrirVistaPrevia(image.imageUrl);
 
             });
-card.appendChild(img);
+
+            card.appendChild(img);
 
             card.appendChild(description);
 
@@ -68,7 +68,6 @@ card.appendChild(img);
             image.description.toLowerCase().includes(query.toLowerCase())
 
         );
-
         renderImages(resultados);
 
     }
@@ -93,8 +92,7 @@ card.appendChild(img);
 
     renderImages(imagesWithDescription);
 
-    document.getElementById("crear-
-button").addEventListener("click", function() {
+    document.getElementById("crear-button").addEventListener("click", function() {
 
         var galeria = document.getElementById("grid-container");
 
@@ -108,7 +106,8 @@ button").addEventListener("click", function() {
 
             galeria.style.display = "block";
 
-            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
+            document.getElementById("crear-
+     form").style.display = "none"; // Ocultar el segundo código HTML
 
         }
 
@@ -134,7 +133,7 @@ button").addEventListener("click", function() {
 
     }
 
-// Obtener todos los elementos con la clase "download-icon"
+    // Obtener todos los elementos con la clase "download-icon"
 
     const downloadIcons = document.querySelectorAll('.download-icon');
 
@@ -147,7 +146,6 @@ button").addEventListener("click", function() {
         icon.addEventListener('click', () => {
 
             // Obtener la imagen asociada al ícono de descarga
-
             const image = icon.previousElementSibling;
 
             // Crear la URL de la imagen
@@ -174,6 +172,7 @@ const imagenesPorCategoria = {
         { url: "imagen2.jpg", descripcion: "Descripción de la imagen 2" },
 
     ],
+
     "moda": [
 
         { url: "imagen3.jpg", descripcion: "Descripción de la imagen 3" },
@@ -189,9 +188,7 @@ const imagenesPorCategoria = {
         { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
 
     ],
-  
-  
-  "Vehículos ": [
+"Vehículos ": [
 
         { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
 
@@ -214,9 +211,8 @@ const imagenesPorCategoria = {
         { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
 
     ],
-
-
-"Futurista ": [
+  
+  "Futurista ": [
 
         { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
 
@@ -231,8 +227,8 @@ const imagenesPorCategoria = {
         { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
 
     ],
-  
-  "noticias": [
+
+ "noticias": [
 
         { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
 
@@ -255,9 +251,9 @@ const imagenesPorCategoria = {
         { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
 
     ],
-
-
- "Anime": [
+  
+  
+  "Anime": [
 
         { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
 
@@ -295,8 +291,7 @@ function mostrarCategoria(categoria) {
 
             const descripcion = document.createElement("div");
 
-
-descripcion.className = "description";
+            descripcion.className = "description";
 
             descripcion.textContent = imagen.descripcion;
 
@@ -311,7 +306,6 @@ descripcion.className = "description";
                 window.open(imagen.url, '_blank');
 
             });
-
             gridItem.appendChild(img);
 
             gridItem.appendChild(descripcion);
@@ -337,7 +331,6 @@ function shuffle(array) {
     }
 
 }
-
 
 window.onload = function() {
 
