@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     const imagesWithDescription = [
         { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Super Saiyan' },
         { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Vegeta Super Saiyan' },
@@ -14,19 +15,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function renderImages(images) {
         gridContainer.innerHTML = '';
+
         images.forEach(image => {
             const card = document.createElement('div');
             card.classList.add('card');
+
             const img = document.createElement('img');
             img.src = image.imageUrl;
+
             const description = document.createElement('div');
             description.classList.add('description');
             description.textContent = image.description;
+
             const downloadIcon = document.createElement('div');
             downloadIcon.classList.add('download-icon');
             downloadIcon.addEventListener('click', function() {
                 abrirVistaPrevia(image.imageUrl);
             });
+
             card.appendChild(img);
             card.appendChild(description);
             card.appendChild(downloadIcon);
@@ -53,16 +59,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     renderImages(imagesWithDescription);
 
-    // Añadir evento al botón "crear"
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
-        var crearForm = document.getElementById("crear-form");
+
         if (galeria.style.display === "block") {
             galeria.style.display = "none";
-            crearForm.style.display = "block"; // Mostrar el segundo código HTML
+            document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
+            window.scrollTo(0, 0); // Llevar al usuario al inicio de la página
         } else {
             galeria.style.display = "block";
-            crearForm.style.display = "none"; // Ocultar el segundo código HTML
+            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
         }
     });
 
@@ -78,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Obtener todos los elementos con la clase "download-icon"
     const downloadIcons = document.querySelectorAll('.download-icon');
+
     // Iterar sobre cada ícono de descarga
     downloadIcons.forEach(icon => {
         // Agregar un evento de clic a cada ícono
@@ -90,4 +97,5 @@ document.addEventListener('DOMContentLoaded', function () {
             window.open(imageUrl, '_blank');
         });
     });
+
 });
