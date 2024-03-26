@@ -1,344 +1,92 @@
-<!DOCTYPE html>
+document.addEventListener('DOMContentLoaded', function () {
+    const imagesWithDescription = [
+        { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Vegeta Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Gohan Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Trunks Super Saiyan' },
+        // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
+    ];
 
-<html lang="en">
+    // Mezclar el arreglo de imágenes de forma aleatoria
+    imagesWithDescription.sort(() => Math.random() - 0.5);
 
-<head>
+    const gridContainer = document.getElementById('grid-container');
+    const crearForm = document.getElementById('crear-form');
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
-
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-
-<body>
-
-    <header>
-
-        <h1>auron play mejor Youtuber </h1>
-
-    </header>
-
-    <main id="grid-container">
-
-        <!-- Aquí se cargarán dinámicamente las imágenes -->
-
-    </main>
-
-    <footer>
-
-        <!-- Aquí puedes agregar elementos de navegación u otras funciones -->
-
-    </footer>
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="styles.css">
-
-<title>Descargar Icono</title>
-
-</head>
-
-<body>
-
-<div id="grid-container" class="grid-container">
-
-    <!-- Las imágenes se agregarán aquí dinámicamente mediante JavaScript -->
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
-
-<style>
-
-    #crear-button {
-
-      background-color: white;
-
+    function renderImages(images) {
+        gridContainer.innerHTML = '';
+        images.forEach(image => {
+            const card = document.createElement('div');
+            card.classList.add('card');
+            const img = document.createElement('img');
+            img.src = image.imageUrl;
+            const description = document.createElement('div');
+            description.classList.add('description');
+            description.textContent = image.description;
+            const downloadIcon = document.createElement('div');
+            downloadIcon.classList.add('download-icon');
+            downloadIcon.addEventListener('click', function() {
+                abrirVistaPrevia(image.imageUrl);
+            });
+            card.appendChild(img);
+            card.appendChild(description);
+            card.appendChild(downloadIcon);
+            gridContainer.appendChild(card);
+        });
     }
 
-  </style>
-
-</head>
-
-<body>
-<div class="search-container">
-
-    <button id="crear-button"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAL0lEQVR4nGNgGAWjYCDAfzphBrpZNAoGP/hPr0j/P5q6RgEM0K1I+T9ado2C4QkAKPp3ibYBCjsAAAAASUVORK5CYII="></button>
-
-    <input type="text" id="search-input" placeholder="Buscar por descripción...">
-
-</div>
-
-<div id="crear-form" style="display: none;">
-
-    <!DOCTYPE html>
-
-<html>
-
-<head>
-
-<style>
-
-.div-container {
-
-  border: 2px solid #4CAF50;
-
-  border-radius: 10px;
-
-  padding: 0px;
-
-  display: inline-block;
-
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
-}
-
-.categoria-btn {
-
-  background-color: #4CAF50;
-
-  border: none;
-
-  color: white;
-
-  padding: 10px 20px;
-
-  text-align: center;
-text-decoration: none;
-
-  display: inline-block;
-
-  font-size: 16px;
-
-  margin: 4px 2px;
-
-  cursor: pointer;
-
-  border-radius: 8px;
-
-  transition: background-color 0.3s ease;
-
-}
-
-.categoria-btn:hover {
-
-  background-color: #45a049;
-
-}
-
-</style>
-
-<script>
-
-function mostrarCategoria(categoria) {
-
-  var galerias = document.getElementsByClassName("galeria");
-
-  for (var i = 0; i < galerias.length; i++) {
-
-    galerias[i].style.display = "none";
-
-  }
-
-  document.getElementById("galeria-" + categoria).style.display = "block";
-
-}
-
-</script>
-
-</head>
-
-<body>
-
-<div class="div-container">
-
-  <h1></h1>
-
-  <p></p>
-⚠️el buscador no funciona cuando preciones el botón categorías 
-  <div class="categorias">
-
-    <button class="categoria-btn" onclick="mostrarCategoria('Futurista ')">Futurista</button>
-
-    <button class="categoria-btn" onclick="mostrarCategoria('naturaleza ')">naturaleza</button>
-    
-    <button class="categoria-btn" onclick="mostrarCategoria('wallpaper ')">wallpaper</button>
-    
-    <button class="categoria-btn" onclick="mostrarCategoria('chibi')">Chibi</button>
-   
-    <button class="categoria-btn" onclick="mostrarCategoria('Anime')">Anime</button>
-    
-
-    <button class="categoria-btn" onclick="mostrarCategoria('moda')">moda</button>
-
-    <button class="categoria-btn" onclick="mostrarCategoria('Vehículos ')">vehículos</button>
-    
-
-    <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">dibujos</button>
-    
-    <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
-    
-
-    <button class="categoria-btn" onclick="mostrarCategoria('memes')">memes</button>
-
-      <button class="categoria-btn" onclick="mostrarCategoria('noticias')">noticias</button>
-    
-    <button class="categoria-btn" onclick="mostrarCategoria('🔞🍑🔞')">🔞🍑🔞</button>
-   <!-- Agrega más botones según las categorías que necesites -->
-
-  </div>
-
-</div>
-
-<div id="galeria-accion" class="galeria">
-  <!-- Galería de imágenes de acción -->
-  
-</div>
-
-<div id="galeria-aventura" class="galeria">
-     
-
-  <!-- Galería de imágenes de aventura -->
-
-</div>
-
-<div id="galeria-comedia" class="galeria">
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Grid de Imágenes</title>
-
-    <style>
-
-        .grid-container {
-
-            column-count: 2;
-
-            column-gap: 10px;
-            padding: 5px;
-
+    function buscarImagenes(query) {
+        const resultados = imagesWithDescription.filter(image =>
+            image.description.toLowerCase().includes(query.toLowerCase())
+        );
+        renderImages(resultados);
+    }
+
+    function abrirVistaPrevia(url) {
+        window.open(url, '_blank');
+    }
+
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', function(event) {
+        const query = event.target.value.trim();
+        buscarImagenes(query);
+    });
+
+    renderImages(imagesWithDescription);
+
+    // Añadir evento al botón "crear"
+    document.getElementById("crear-button").addEventListener("click", function() {
+        if (gridContainer.style.display === "block") {
+            gridContainer.style.display = "none";
+            crearForm.style.display = "block"; // Mostrar el segundo código HTML
+        } else {
+            gridContainer.style.display = "block";
+            crearForm.style.display = "none"; // Ocultar el segundo código HTML
         }
+    });
 
-        .grid-item {
-
-border-radius: 8px;
-
-            overflow: hidden;
-
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-            position: relative;
-
-            max-width: 100%;
-
-            break-inside: avoid;
-
-            margin-bottom: 10px;
-
+    // Función para mostrar la galería correspondiente a la categoría seleccionada
+    function mostrarCategoria(categoria) {
+        // Ocultamos todas las galerías
+        var galerias = document.getElementsByClassName("galeria");
+        for (var i = 0; i < galerias.length; i++) {
+            galerias[i].style.display = "none";
         }
+        // Mostramos la galería de la categoría seleccionada
+    }
 
-        .grid-item img {
-
-            width: 100%; 
-
-            height: 100%;
-
-            object-fit: cover;
-
-            display: block;
-
-        }
-
-        .grid-item .description {
-
-            position: absolute;
-
-            bottom: 0;
-
-            left: 0;
-
-            width: 100%;
-
-            padding: 10px;
-
-            background-color: rgba(0, 0, 0, 0.7);
-
-            color: white;
-
-            text-align: center;
-
-        }
-
-            background-color: #fff;
-
-            border: 1px solid #ccc;
-
-            border-radius: 50%;
-
-            padding: 5px;
-
-            cursor: pointer;
-
-        }
-
-        .download-icon::after {
-
-            content: "\2B07";
-
-        }
-
-    </style>
-
-</head>
-
-<body>
-
-    <div id="gallery" class="grid-container"></div>
-
-    <script src="gallery.js"></script>
-
-</body>
-
-</html>
-  
-  
-  <!-- Galería de imágenes de comedia -->
-
-</div>
-
-</body>
-
-    </html>
+    // Obtener todos los elementos con la clase "download-icon"
+    const downloadIcons = document.querySelectorAll('.download-icon');
+    // Iterar sobre cada ícono de descarga
+    downloadIcons.forEach(icon => {
+        // Agregar un evento de clic a cada ícono
+        icon.addEventListener('click', () => {
+            // Obtener la imagen asociada al ícono de descarga
+            const image = icon.previousElementSibling;
+            // Crear la URL de la imagen
+            const imageUrl = image.src;
+            // Abrir una nueva página con la imagen
+            window.open(imageUrl, '_blank');
+        });
+    });
+});
