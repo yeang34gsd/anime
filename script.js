@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = image.imageUrl;
 
             const description = document.createElement('div');
+
             description.classList.add('description');
 
             description.textContent = image.description;
@@ -42,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const downloadIcon = document.createElement('div');
 
             downloadIcon.classList.add('download-icon');
-
             downloadIcon.addEventListener('click', function() {
 
                 abrirVistaPrevia(image.imageUrl);
@@ -79,9 +79,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     }
 
-const searchInput = document.getElementById('search-input');
-
-    searchInput.addEventListener('input', function(event) {
+    const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('input', function(event) {
 
         const query = event.target.value.trim();
 
@@ -118,11 +117,9 @@ const searchInput = document.getElementById('search-input');
     function mostrarCategoria(categoria) {
 
         // Ocultamos todas las galerías
-
         var galerias = document.getElementsByClassName("galeria");
 
-
-for (var i = 0; i < galerias.length; i++) {
+        for (var i = 0; i < galerias.length; i++) {
 
             galerias[i].style.display = "none";
 
@@ -163,3 +160,4 @@ for (var i = 0; i < galerias.length; i++) {
     });
 
 });
+                          
