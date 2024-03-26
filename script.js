@@ -129,7 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Mostramos la galería de la categoría seleccionada
 
-        document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
     }
 
     // Obtener todos los elementos con la clase "download-icon"
