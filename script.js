@@ -88,8 +88,6 @@ searchInput.addEventListener('input', function(event) {
 
     });
 
-    // Renderizar las imágenes al cargar la página
-
     renderImages(imagesWithDescription);
 
     document.getElementById("crear-button").addEventListener("click", function() {
