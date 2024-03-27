@@ -63,20 +63,22 @@ document.addEventListener('DOMContentLoaded', function () {
         buscarImagenes(query);
     });
 
-    renderImages(imagesWithDescription);
+    // Renderizar las imágenes al cargar la página
+renderImages(imagesWithDescription);
 
-    document.getElementById("crear-button").addEventListener("click", function() {
-        var galeria = document.getElementById("grid-container");
+// Agregar evento al botón para alternar entre la galería y el formulario
+document.getElementById("crear-button").addEventListener("click", function() {
+    var galeria = document.getElementById("grid-container");
+    var formulario = document.getElementById("crear-form");
 
-        if (galeria.style.display === "block") {
-            galeria.style.display = "none";
-            document.getElementById("crear-form").style.display = "block"; 
-            window.scrollTo(0, 0); 
-        } else {
-            galeria.style.display = "block";
-            document.getElementById("crear-form").style.display = "none"; 
-        }
-    });
+    if (galeria.style.display === "block") {
+        galeria.style.display = "none";
+        formulario.style.display = "block"; // Mostrar el segundo código HTML
+    } else {
+        galeria.style.display = "block";
+        formulario.style.display = "none"; // Ocultar el segundo código HTML
+    }
+});
 
     function mostrarCategoria(categoria) {
         var galerias = document.getElementsByClassName("galeria");
