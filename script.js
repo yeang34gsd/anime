@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             downloadIcon.classList.add('download-icon');
             downloadIcon.addEventListener('click', function() {
                 abrirVistaPrevia(image.imageUrl);
+                cerrarGaleria(); // Cerrar la galería al presionar el ícono de descarga
             });
 
             card.appendChild(img);
@@ -49,6 +50,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function abrirVistaPrevia(url) {
         window.open(url, '_blank');
+    }
+
+    function cerrarGaleria() {
+        const galeria = document.getElementById('grid-container');
+        galeria.style.display = 'none';
     }
 
     const searchInput = document.getElementById('search-input');
@@ -81,21 +87,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         // Mostramos la galería de la categoría seleccionada
     }
-
-    // Obtener todos los elementos con la clase "download-icon"
-    const downloadIcons = document.querySelectorAll('.download-icon');
-
-    // Iterar sobre cada ícono de descarga
-    downloadIcons.forEach(icon => {
-        // Agregar un evento de clic a cada ícono
-        icon.addEventListener('click', () => {
-            // Obtener la imagen asociada al ícono de descarga
-            const image = icon.previousElementSibling;
-            // Crear la URL de la imagen
-            const imageUrl = image.src;
-            // Abrir una nueva página con la imagen
-            window.open(imageUrl, '_blank');
-        });
-    });
 
 });
