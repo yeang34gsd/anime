@@ -75,6 +75,10 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleGaleriaAndFormulario();
     });
 
+    window.onpopstate = function(event) {
+        toggleGaleriaAndFormulario();
+    };
+
     // Función para mostrar la galería correspondiente a la categoría seleccionada
     function mostrarCategoria(categoria) {
         // Ocultamos todas las galerías
