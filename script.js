@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     imagesWithDescription.sort(() => Math.random() - 0.5);
 
     const gridContainer = document.getElementById('grid-container');
+    const formulario = document.getElementById('crear-form');
 
     function renderImages(images) {
         gridContainer.innerHTML = '';
@@ -31,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
             downloadIcon.classList.add('download-icon');
             downloadIcon.addEventListener('click', function() {
                 abrirVistaPrevia(image.imageUrl);
-                cerrarGaleria(); // Cerrar la galería al presionar el ícono de descarga
             });
 
             card.appendChild(img);
@@ -52,19 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
         window.open(url, '_blank');
     }
 
-    function cerrarGaleria() {
-        const galeria = document.getElementById('grid-container');
-        galeria.style.display = 'none';
-        const formulario = document.getElementById('crear-form');
-        formulario.style.display = 'block'; // Mostrar el segundo código HTML
-        window.scrollTo(0, 0); // Llevar al usuario al inicio de la página
-    }
-
-    function abrirGaleria() {
-        const galeria = document.getElementById('grid-container');
-        galeria.style.display = 'block';
-        const formulario = document.getElementById('crear-form');
-        formulario.style.display = 'none'; // Ocultar el segundo código HTML
+    function toggleGaleriaAndFormulario() {
+        if (gridContainer.style.display === 'block') {
+            gridContainer.style.display = 'none';
+            formulario.style.display = 'block'; // Mostrar el segundo código HTML
+            window.scrollTo(0, 0); // Llevar al usuario al inicio de la página
+        } else {
+            gridContainer.style.display = 'block';
+            formulario.style.display = 'none'; // Ocultar el segundo código HTML
+        }
     }
 
     const searchInput = document.getElementById('search-input');
@@ -76,13 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     renderImages(imagesWithDescription);
 
     document.getElementById("crear-button").addEventListener("click", function() {
-        var galeria = document.getElementById("grid-container");
-
-        if (galeria.style.display === "block") {
-            cerrarGaleria();
-        } else {
-            abrirGaleria();
-        }
+        toggleGaleriaAndFormulario();
     });
 
     // Función para mostrar la galería correspondiente a la categoría seleccionada
