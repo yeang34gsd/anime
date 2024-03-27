@@ -55,6 +55,16 @@ document.addEventListener('DOMContentLoaded', function () {
     function cerrarGaleria() {
         const galeria = document.getElementById('grid-container');
         galeria.style.display = 'none';
+        const formulario = document.getElementById('crear-form');
+        formulario.style.display = 'block'; // Mostrar el segundo código HTML
+        window.scrollTo(0, 0); // Llevar al usuario al inicio de la página
+    }
+
+    function abrirGaleria() {
+        const galeria = document.getElementById('grid-container');
+        galeria.style.display = 'block';
+        const formulario = document.getElementById('crear-form');
+        formulario.style.display = 'none'; // Ocultar el segundo código HTML
     }
 
     const searchInput = document.getElementById('search-input');
@@ -69,12 +79,9 @@ document.addEventListener('DOMContentLoaded', function () {
         var galeria = document.getElementById("grid-container");
 
         if (galeria.style.display === "block") {
-            galeria.style.display = "none";
-            document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
-            window.scrollTo(0, 0); // Llevar al usuario al inicio de la página
+            cerrarGaleria();
         } else {
-            galeria.style.display = "block";
-            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
+            abrirGaleria();
         }
     });
 
