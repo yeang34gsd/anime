@@ -89,22 +89,30 @@ document.getElementById("crear-button").addEventListener("click", function() {
 
 });
  
- 
+
+
+
+
+
+
+
+
+
 const imagenesPorCategoria = {
 
     "chibi": [
 
         { url: "https://i.pinimg.com/236x/8e/f6/ab/8ef6ab8be1b190d489477a64178b7f7c.jpg", descripcion: "Descripción de la imagen 1" },
 
-        { url: "imagen2.jpg", descripcion: "Descripción de la imagen 2" },
+        { url: "https://i.pinimg.com/236x/ac/df/d4/acdfd4c5a8b796762842750e31f9c603.jpg", descripcion: "Descripción de la imagen 2" },
 
     ],
 
     "moda": [
 
-        { url: "imagen3.jpg", descripcion: "Descripción de la imagen 3" },
+        { url: "https://i.pinimg.com/236x/b2/10/ea/b210eadafd81c395a13bf78b67ddb5b4.jpg", descripcion: "Descripción de la imagen 3" },
 
-        { url: "imagen4.jpg", descripcion: "Descripción de la imagen 4" },
+        { url: "https://i.pinimg.com/236x/1f/0e/11/1f0e115720a03f7c3542ba5d4baee8c9.jpg", descripcion: "Descripción de la imagen 4" },
 
     ],
 
