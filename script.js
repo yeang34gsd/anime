@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
 
     const imagesWithDescription = [
@@ -107,8 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             galeria.style.display = "block";
 
-            document.getElementById("crear-
-     form").style.display = "none"; // Ocultar el segundo código HTML
+            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
 
         }
 
@@ -130,8 +128,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Mostramos la galería de la categoría seleccionada
 
-        document.getElementById("galeria-" + categoria).style.display = "block";
-
+        const galeria = document.getElementById("grid-container");
+        galeria.style.display = "block"; // Mostrar la galería principal
     }
 
     // Obtener todos los elementos con la clase "download-icon"
@@ -162,184 +160,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
-
-
-const imagenesPorCategoria = {
-
-    "chibi": [
-
-        { url: "https://i.pinimg.com/236x/8e/f6/ab/8ef6ab8be1b190d489477a64178b7f7c.jpg", descripcion: "Descripción de la imagen 1" },
-
-        { url: "imagen2.jpg", descripcion: "Descripción de la imagen 2" },
-
-    ],
-
-    "moda": [
-
-        { url: "imagen3.jpg", descripcion: "Descripción de la imagen 3" },
-
-        { url: "imagen4.jpg", descripcion: "Descripción de la imagen 4" },
-
-    ],
-
-    "wallpaper ": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-"Vehículos ": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  "dibujos": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  
-  "Artistas": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  "Futurista ": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  "memes": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-
- "noticias": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  "naturaleza ": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  "🔞🍑🔞": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-  
-  
-  "Anime": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
-
-};
-
-function mostrarCategoria(categoria) {
-
-    const galeria = document.getElementById("gallery");
-
-    galeria.innerHTML = "";
-
-    const imagenes = imagenesPorCategoria[categoria];
-
-    if (imagenes) {
-
-        shuffle(imagenes);
-
-        
-
-        imagenes.forEach(function(imagen) {
-
-            const gridItem = document.createElement("div");
-
-            gridItem.className = "grid-item";
-
-            const img = document.createElement("img");
-
-            img.src = imagen.url;
-
-            img.alt = categoria;
-
-            const descripcion = document.createElement("div");
-
-            descripcion.className = "description";
-
-            descripcion.textContent = imagen.descripcion;
-
-            const downloadIcon = document.createElement("div");
-
-            downloadIcon.className = "download-icon";
-
-            downloadIcon.innerHTML = "&#x2B07;";
-
-            downloadIcon.addEventListener('click', function() {
-
-                window.open(imagen.url, '_blank');
-
-            });
-            gridItem.appendChild(img);
-
-            gridItem.appendChild(descripcion);
-
-            gridItem.appendChild(downloadIcon);
-
-            galeria.appendChild(gridItem);
-
-        });
-
-    }
-
-}
-
-function shuffle(array) {
-
-    for (let i = array.length - 1; i > 0; i--) {
-
-        const j = Math.floor(Math.random() * (i + 1));
-
-        [array[i], array[j]] = [array[j], array[i]];
-
-    }
-
-}
-
-window.onload = function() {
-
-    const categorias = Object.keys(imagenesPorCategoria);
-
-    const categoriaAleatoria = categorias[Math.floor(Math.random() * categorias.length)];
-
-    mostrarCategoria(categoriaAleatoria);
-
-};
-     
