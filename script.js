@@ -101,7 +101,7 @@ const imagenesPorCategoria = {
     
 };
 
-function Categoria(categoria) {
+function mostrarCategoria(categoria) {
 
     const galeria = document.getElementById("gallery");
 
