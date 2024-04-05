@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const personajes = [
-        { nombre: "Goku", imagen: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Super Saiyan' },
-        { nombre: "Vegeta", imagen: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Vegeta Super Saiyan' },
-        { nombre: "Gohan", imagen: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Gohan Super Saiyan' },
-        { nombre: "Trunks", imagen: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Trunks Super Saiyan' }
-        // Agregar más personajes según sea necesario
+        { nombre: "Goku", imagen: "https://i.pinimg.com/236x/66/70/b1/6670b17023dacc00b6fcf329ff70c867.jpg" },
+        { nombre: "Vegeta", imagen: "https://i.pinimg.com/236x/8b/7e/85/8b7e85054d6f27e68108d4a4cb103bb2.jpg" },
+        // Agregar más objetos de personajes con sus respectivas imágenes según sea necesario
     ];
 
     // Mezclar el arreglo de personajes de forma aleatoria
@@ -24,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const description = document.createElement('div');
             description.classList.add('description');
-            description.textContent = personaje.description;
+            description.textContent = personaje.nombre;
 
             const downloadIcon = document.createElement('div');
             downloadIcon.classList.add('download-icon');
@@ -41,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function buscarImagenes(query) {
         const resultados = personajes.filter(personaje =>
-            personaje.description.toLowerCase().includes(query.toLowerCase())
+            personaje.nombre.toLowerCase().includes(query.toLowerCase())
         );
         renderImages(resultados);
     }
@@ -51,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     const searchInput = document.getElementById('search-input');
+
     searchInput.addEventListener('input', function(event) {
         const query = event.target.value.trim();
         buscarImagenes(query);
@@ -70,6 +69,15 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // Función para mostrar la galería correspondiente a la categoría seleccionada
+    function mostrarCategoria(categoria) {
+        var galerias = document.getElementsByClassName("galeria");
+        for (var i = 0; i < galerias.length; i++) {
+            galerias[i].style.display = "none";
+        }
+        document.getElementById("galeria-" + categoria).style.display = "block";
+    }
+
     // Obtener todos los elementos con la clase "download-icon"
     const downloadIcons = document.querySelectorAll('.download-icon');
 
@@ -77,10 +85,10 @@ document.addEventListener('DOMContentLoaded', function () {
     downloadIcons.forEach(icon => {
         // Agregar un evento de clic a cada ícono
         icon.addEventListener('click', () => {
-            // Obtener el índice del personaje asociado al ícono de descarga
-            const index = Array.from(icon.parentNode.parentNode.children).indexOf(icon.parentNode);
             // Obtener la imagen asociada al ícono de descarga
-            const imageUrl = personajes[index].imagen;
+            const image = icon.previousElementSibling;
+            // Crear la URL de la imagen
+            const imageUrl = image.src;
             // Abrir una nueva página con la imagen
             window.open(imageUrl, '_blank');
         });
