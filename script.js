@@ -3,12 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
         { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Super Saiyan' },
         { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Vegeta Super Saiyan' },
         { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Gohan Super Saiyan' },
-        { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Trunks Super Saiyan' }
+        { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Trunks Super Saiyan' },
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
     ];
-
-    // Mezclar el arreglo de imágenes de forma aleatoria
-    imagesWithDescription.sort(() => Math.random() - 0.5);
 
     const gridContainer = document.getElementById('grid-container');
 
@@ -57,13 +54,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
-        var crearForm = document.getElementById("crear-form");
         if (galeria.style.display === "block") {
             galeria.style.display = "none";
-            crearForm.style.display = "block"; // Mostrar el segundo código HTML
+            document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
         } else {
             galeria.style.display = "block";
-            crearForm.style.display = "none"; // Ocultar el segundo código HTML
+            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
         }
     });
 
