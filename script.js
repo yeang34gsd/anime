@@ -50,7 +50,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Renderizar las imágenes al cargar la página
-    renderImages(imagesWithDescription);
+    if (localStorage.getItem('images')) {
+        renderImages(JSON.parse(localStorage.getItem('images')));
+    } else {
+        renderImages(imagesWithDescription);
+    }
 
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
@@ -87,5 +91,10 @@ document.addEventListener('DOMContentLoaded', function () {
             // Abrir una nueva página con la imagen
             window.open(imageUrl, '_blank');
         });
+    });
+
+    // Guardar el estado de las imágenes en el almacenamiento local
+    window.addEventListener('beforeunload', function() {
+        localStorage.setItem('images', JSON.stringify(imagesWithDescription));
     });
 });
