@@ -172,6 +172,97 @@ const imagenesPorCategoria = {
 
     ],
 
+    "moda": [
+
+        { url: "imagen3.jpg", descripcion: "Descripción de la imagen 3" },
+
+        { url: "imagen4.jpg", descripcion: "Descripción de la imagen 4" },
+
+    ],
+
+    "wallpaper ": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  
+  "Vehículos ": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  "dibujos": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  
+  "Artistas": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+
+
+    "Futurista ": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  "memes": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  "noticias": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  "naturaleza ": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  "🔞🍑🔞": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+  
+  
+  "Anime": [
+
+        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+
+        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+
+    ],
+
     
 };
 
