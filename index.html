@@ -30,24 +30,41 @@
         <div class="div-container">
             <h1></h1>
             <p></p>
-            ⚠️ El buscador no funciona cuando presionas el botón categorías 
-            <div class="categorias">
-                <button class="categoria-btn" onclick="mostrarCategoria('Futurista')">Futurista</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('naturaleza')">Naturaleza</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('wallpaper')">Wallpaper</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('chibi')">Chibi</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Anime')">Anime</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('moda')">Moda</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Vehículos')">Vehículos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">Dibujos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('memes')">Memes</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('noticias')">Noticias</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('🔞🍑🔞')">🔞🍑🔞</button>
-                <!-- Agrega más botones según las categorías que necesites -->
-            </div>
-        </div>
-    </div>
+            <style>
+    .categoria-btn {
+        background-color: #007bff; /* Color de fondo azul */
+        border: 2px solid #007bff; /* Borde sólido azul */
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 25px; /* Bordes redondeados */
+        transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
+    }
+
+    .categoria-btn:hover {
+        background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+        border-color: #0056b3; /* Cambia el color del borde al pasar el mouse sobre el botón */
+    }
+
+    /* Animación al ser presionado */
+    .categoria-btn:active {
+        transform: translateY(2px); /* Desplaza el botón hacia abajo cuando es presionado */
+        transition: transform 0.1s; /* Agrega una transición suave */
+    }
+</style>
+
+<div class="categorias">
+    <button class="categoria-btn" onclick="mostrarCategoria('Futurista')">Futurista</button>
+    <button class="categoria-btn" onclick="mostrarCategoria('naturaleza')">Naturaleza</button>
+    <!-- Agrega el resto de los botones aquí -->
+</div>
+
+          
     <div id="galeria-accion" class="galeria">
         <!-- Galería de imágenes de acción -->
     </div>
