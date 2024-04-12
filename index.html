@@ -89,85 +89,35 @@
     <strong>⚠️ El buscador no funciona cuando presionas el botón categorías</strong>
 
 </div>
-
-
-
-
-
-            
-        <style>
-
+<style>
     .categoria-btn {
-
-        background-color:rgb(255, 0, 0)  ; /* Color de fondo azul */
-
-        border: 2px solid rgb(255, 0, 0) ; /* Borde sólido azul */
-
+        background-color: rgb(255, 0, 0); /* Color de fondo rojo */
+        border: 2px solid rgb(255, 0, 0); /* Borde sólido rojo */
         color: white;
-
         padding: 10px 20px;
-
         text-align: center;
-
         text-decoration: none;
-
         display: inline-block;
-
         font-size: 16px;
-
         margin: 4px 2px;
-
         cursor: pointer;
-
         border-radius: 25px; /* Bordes redondeados */
-
         transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
-
-        animation: pulse 1s infinite; /* Animación de pulsación infinita */
-
     }
 
     .categoria-btn:hover {
-
         background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
-
         border-color: #0056b3; /* Cambia el color del borde al pasar el mouse sobre el botón */
-
-        animation: none; /* Detiene la animación cuando se pasa el mouse sobre el botón */
-
     }
-
-    @keyframes pulse {
-
-        0% {
-            transform: scale(1); /* Escala inicial */
-
-        }
-
-        50% {
-
-            transform: scale(1.05); /* Escala aumentada */
-
-        }
-
-        100% {
-
-            transform: scale(1); /* Regresar a la escala inicial */
-
-        }
-
-    }
-
 </style>
 
 <div class="categorias">
-
     <button class="categoria-btn" onclick="mostrarCategoria('Futurista')">Futurista</button>
-
     <button class="categoria-btn" onclick="mostrarCategoria('naturaleza')">Naturaleza</button>
-
     <!-- Agrega el resto de los botones aquí -->
+</div>
 
+    
 </div>
     
 
