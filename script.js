@@ -99,6 +99,22 @@ document.addEventListener('DOMContentLoaded', function () {
   { imageUrl: 'https://i.pinimg.com/236x/bf/7e/30/bf7e30218be2cf803c051266cbc000f6.jpg', description: 'Sakura Haruno' },
 
 
+        
+  { imageUrl: 'https://i.pinimg.com/236x/45/2c/1b/452c1b9223715b57f3f3b4c1a5361c4f.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/69/52/06/69520667179357ff7df2b39d968bf2fc.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/2e/7b/d4/2e7bd481377084fe6108e3a58848aca3.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/77/3b/5a/773b5a960dedfc1c580289dd3fe8d3d9.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/54/ee/43/54ee43cc57c32be20a03e036520c44f8.jpg', description: 'Hinata Hyūga' },
+  { imageUrl: 'https://i.pinimg.com/236x/e2/a6/87/e2a687cbdda087e7a00e1a188479129f.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/474x/09/9c/1e/099c1eb7734fdd126a313711c5021037.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/8d/c2/7f/8dc27f41b0f665367a6bcf2f4dd93d0c.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/15/49/70/154970cf412d5d58a87efe5448d71a7e.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/6a/e6/04/6ae604758a1cf58ba999464a446179a3.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/5d/b3/dd/5db3dd3d13953fa38fe7d9978a4b8bd8.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/42/0c/a8/420ca8abbb375d29f482c3f90e1bfd60.jpg', description: 'Kakashi Hatake' },
+  { imageUrl: 'https://i.pinimg.com/236x/ae/b6/c7/aeb6c75275f7535b2c6974e839a86771.jpg', description: 'Kakashi Hatake' }
+
+
                           
 
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
