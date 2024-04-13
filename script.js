@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
   { imageUrl: 'https://i.pinimg.com/236x/6a/e6/04/6ae604758a1cf58ba999464a446179a3.jpg', description: 'Kakashi Hatake' },
   { imageUrl: 'https://i.pinimg.com/236x/5d/b3/dd/5db3dd3d13953fa38fe7d9978a4b8bd8.jpg', description: 'Kakashi Hatake' },
   { imageUrl: 'https://i.pinimg.com/236x/42/0c/a8/420ca8abbb375d29f482c3f90e1bfd60.jpg', description: 'Kakashi Hatake' },
-  { imageUrl: 'https://i.pinimg.com/236x/ae/b6/c7/aeb6c75275f7535b2c6974e839a86771.jpg', description: 'Kakashi Hatake' }
+  { imageUrl: 'https://i.pinimg.com/236x/ae/b6/c7/aeb6c75275f7535b2c6974e839a86771.jpg', description: 'Kakashi Hatake' },
 
 
                           
