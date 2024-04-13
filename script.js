@@ -39,7 +39,66 @@ document.addEventListener('DOMContentLoaded', function () {
   { imageUrl: 'https://i.pinimg.com/236x/76/8c/e5/768ce5a2a335ccfd8a60ccd25e52c948.jpg', description: 'Fases de goku' },
 
   { imageUrl: 'https://i.pinimg.com/236x/14/61/4c/14614cd9808466b29cdeb5257ee80f99.jpg', description: 'Ultra Instinto ' }
-        
+        { imageUrl: 'https://i.pinimg.com/236x/15/f9/05/15f905fa6f748ebc4d974dd83eed02e5.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/0a/a9/9f/0aa99fd35cf415c28bc0b02b4e0961cb.jpg', description: 'Sasuke Uchiha' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/ab/dc/52/abdc52db893674a7b5dcb767be8776e5.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/e7/b9/f4/e7b9f4c9673a1e6d011c10e794414439.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5b/f0/f8/5bf0f89c2dcb06e64a08503fd9eb3c6b.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/98/15/91/98159112209ee0bcb06a13c55bdc78e5.jpg', description: 'Sasuke Uchiha' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/76/95/2b/76952b05299022f4f7bdff33b220d477.jpg', description: ' villanos de Naruto' },
+      { imageUrl: 'https://i.pinimg.com/236x/b1/f3/95/b1f39583a8b9a174b63eac33c51c88fc.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/74/11/d9/7411d9ad3dda0ba42cbb3ec9fa5b0e24.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/1f/23/3c/1f233cab210553510a44d266b8a64daf.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/3f/39/cd/3f39cde94f688b1701503a174d4da20a.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/b7/0c/9e/b70c9ea4daba35d154e503a3df3ecc31.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/50/22/cc/5022ccb5981037042c991e3c3362677d.jpg', description: 'Naruto Uzumaki' },
+         { imageUrl: 'https://i.pinimg.com/236x/33/8f/f7/338ff76ba896a42b535be655cac2bb5a.jpg', description: 'Naruto Uzumaki' },
+ 
+     
+      { imageUrl: 'https://i.pinimg.com/236x/39/e1/07/39e10728a957f3c9a5935ec132a2f44d.jpg', description: 'Naruto Uzumaki' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/e4/a9/1d/e4a91d4ba9b7c16038526588906676d3.jpg', description: 'Naruto y Sasuke ' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/3a/a2/14/3aa2142212cd9bfd7b6b9bcaed6535cf.jpg', description: 'Kakashi Hatake' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/cf/6d/81/cf6d81ac67062f12c44ecf0696368db8.jpg', description: 'Naruto' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/25/d4/f8/25d4f88d9d7cd84adb730fb40d0f3096.jpg', description: 'Naruto' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/ea/71/ae/ea71aefab056b7564231fed301d19001.jpg', description: 'Kakashi Hatake' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/9a/8c/b9/9a8cb9427f94e7f576b6d8a91e7c78ab.jpg', description: 'Naruto' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/3b/5d/5c/3b5d5cf0a9b0a5e3b9aee024114dcc96.jpg', description: 'Kakashi Hatake' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/01/16/7c/01167ce6ee7a1c71e3b82422de3fe1c8.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/33/92/23/3392237d1223e6d2c12434b8c23626be.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/a1/4a/de/a14adef5f4bbdf0b3a9ab57ca0748d4a.jpg', description: 'Sakura Haruno' },
+         { imageUrl: 'https://i.pinimg.com/236x/fe/7b/37/fe7b370926ae2e7d2b3d3166606cdf14.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/8b/ac/17/8bac179c5b1cfe02d174e5d7817cd78f.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/24/83/d5/2483d59868c973802a283e3b0e2bf3ad.jpg', description: 'Sakura Haruno' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/0f/89/11/0f8911cadb819ff6401026501bd659eb.jpg', description: 'Sakura Haruno' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/bf/7e/30/bf7e30218be2cf803c051266cbc000f6.jpg', description: 'Sakura Haruno' },
+
+
+                          
 
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
