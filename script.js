@@ -182,6 +182,58 @@ document.addEventListener('DOMContentLoaded', function () {
   { imageUrl: 'https://i.pinimg.com/236x/3c/2e/c6/3c2ec68bf886fa49ab4ede32918d7285.jpg', description: 'Megumin' },
         
 
+
+        { imageUrl: 'https://i.pinimg.com/236x/a0/06/fe/a006fe29315ea6dc30756e8ca3328ebf.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/38/7b/fe/387bfeaf462bf17f94efd0c6a4731c5f.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/1f/43/7a/1f437a371da4a5070430c54f9a99c305.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/fb/3a/78/fb3a788afd05a76ad266edce447a65c7.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/fc/78/52/fc7852109bdca81519be2e6445518ce7.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/0e/8d/77/0e8d779bdb2186f2c61695c2f49e6044.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/f4/45/73/f445731653df54a117e862a6ec39bc8f.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/71/c7/25/71c725021873b94a702576160fca9475.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/fc/6b/94/fc6b9456e03761168da756202b67c3b8.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/bc/42/70/bc4270d3527a89a12ab536e150aca566.jpg', description: 'Darkness' },
+        
+
+        { imageUrl: 'https://i.pinimg.com/236x/04/45/0e/04450ed28db6a61d6a3d664d6ce481f9.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/474x/78/c8/cc/78c8cc62a7961f126d28525aa67aa8e1.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/09/71/37/097137fc8c20bf089f1c1bf982766a37.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/dc/57/7b/dc577bebd8cd5f2741abb633e5dfe503.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/b4/cc/70/b4cc70cc284b91965f72a86b9cbe4875.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/82/09/9e/82099e769d03e103e7b6996aa17b342e.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/1a/ca/9b/1aca9b01683b6e6acff5c5b6313b2070.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/88/ad/67/88ad67a14d41e985cc1655f35c5f0406.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/05/91/be/0591bef3c7713f7ef00a890c5739c3c5.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/ff/9f/16/ff9f169147abf91f69743567517744a5.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/75/ac/81/75ac815ee8759a9fe96042fe12e43fa9.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/86/c2/7b/86c27bfe42db3c7ed4ef1aac8b759cee.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/7e/00/12/7e0012057dd306905587eee503c41b32.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/93/70/43/9370439a44f212f9239b981cd0c2b815.jpg', description: 'Aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/07/b1/45/07b1453eb9e3451146e09f409f9337fd.jpg', description: 'Aqua' },
+        
         
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
