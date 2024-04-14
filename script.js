@@ -115,6 +115,21 @@ document.addEventListener('DOMContentLoaded', function () {
   { imageUrl: 'https://i.pinimg.com/236x/ae/b6/c7/aeb6c75275f7535b2c6974e839a86771.jpg', description: 'Kakashi Hatake' },
 
 
+        { imageUrl: 'https://i.pinimg.com/236x/54/8e/32/548e326b84782d237948ede8ec52b452.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/4c/e4/4b/4ce44b26d5fcfaf30fd2e9d12eeae2ce.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/18/c6/2b/18c62bcb3a230aa0993e86d4abdfb8a1.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/6f/7e/6c/6f7e6cc5f8348aa83429c1531df61e58.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5a/43/1b/5a431b37c5380e9ef9a9b39318bdc33f.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/81/a3/49/81a349949202a363ca2f7b8d1c342795.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/db/b9/c7/dbb9c7b6991fa29f2cc58d111dbe9369.jpg', description: 'Hinata Hyūga' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/6b/6e/a2/6b6ea2c1edbf42c77d918146fb6e8f49.jpg', description: 'Hinata Hyūga' }
                           
 
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
