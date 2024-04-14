@@ -129,9 +129,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
   { imageUrl: 'https://i.pinimg.com/236x/db/b9/c7/dbb9c7b6991fa29f2cc58d111dbe9369.jpg', description: 'Hinata Hyūga' },
 
-  { imageUrl: 'https://i.pinimg.com/236x/6b/6e/a2/6b6ea2c1edbf42c77d918146fb6e8f49.jpg', description: 'Hinata Hyūga' }
-                          
+  { imageUrl: 'https://i.pinimg.com/236x/6b/6e/a2/6b6ea2c1edbf42c77d918146fb6e8f49.jpg', description: 'Hinata Hyūga' },
+  { imageUrl: 'https://i.pinimg.com/236x/ec/77/64/ec77640a70d388ab3689b922b488e000.jpg', description: 'Konosuba' },
 
+  { imageUrl: 'https://i.pinimg.com/236x/24/b5/8f/24b58f5e5dc009636efe8a9084d7b0a2.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/0e/ae/c4/0eaec41d72a9328d0f50353890a0d424.jpg', description: 'konosuba' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/0e/dc/ce/0edccebe78fc9e5e551438e876f82e51.jpg', description: 'Konosuba Soketto ' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/d4/66/83/d46683997607c31bd4164235535868e2.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/22/b4/06/22b406ef81cf16910f350867f595a19a.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/31/0d/e5/310de502504f4771403405645cc89508.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/60/a1/48/60a148da197773a9297132f006d0ffde.jpg', description: 'Konosuba' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/b2/f0/49/b2f0496d8f49dd402d3024695c0e7931.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/f3/a3/18/f3a3181f5bb0587e8fdc52c80283291d.jpg', description: 'Konosuba' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/1c/2c/cb/1c2ccbfe3cfee7f23da741962e246500.jpg', description: 'Konosuba diosa aqua' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/52/36/99/52369920c3e2ed874afea75924918a85.jpg', description: 'Darkness' },
+
+
+{ imageUrl: 'https://i.pinimg.com/236x/07/d8/47/07d8479af55aa569992108dd2ad56224.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/cf/dd/7d/cfdd7d1b8b14dca761f9a36c4ece63e6.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5c/bb/5f/5cbb5fb80595b31719767e21a2a437ab.jpg', description: 'Darkness' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/94/16/9b/94169b538fdcd580411b954789724d77.jpg', description: 'Megumin' },
+
+
+        
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
     ];
