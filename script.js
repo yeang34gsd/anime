@@ -163,6 +163,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
   { imageUrl: 'https://i.pinimg.com/236x/94/16/9b/94169b538fdcd580411b954789724d77.jpg', description: 'Megumin' },
 
+        { imageUrl: 'https://i.pinimg.com/236x/00/f5/f2/00f5f20cce6ba1e4d793e41d48280029.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/736x/be/c0/eb/bec0ebeffd86916e0f8d5ddf4eed2dcb.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/12/7c/84/127c84b69c37a56c3e638a2c7ba3e054.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/2d/bc/07/2dbc07b9299db80f1ab9eaa2657c1998.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/736x/15/ca/c6/15cac69373ff3122998a8cdedd828688.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/23/4b/a0/234ba02479ea45b251c8994474d83e65.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/cf/cb/39/cfcb39ffaca3e08648a71ec5a3111d75.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/fd/05/84/fd058487ba21633301f380d0815f8bfe.jpg', description: 'Megumin' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/3c/2e/c6/3c2ec68bf886fa49ab4ede32918d7285.jpg', description: 'Megumin' },
+        
 
         
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
