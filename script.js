@@ -4,11 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Ultra instinto' },
 
-        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Goku',
-         keywords: ['goku', 'super saiyan', 'anime'] 
-         },
-
-
         { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Goku blue ' },
       
      
