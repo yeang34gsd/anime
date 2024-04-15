@@ -234,6 +234,69 @@ document.addEventListener('DOMContentLoaded', function () {
 
   { imageUrl: 'https://i.pinimg.com/236x/07/b1/45/07b1453eb9e3451146e09f409f9337fd.jpg', description: 'Aqua' },
         
+
+
+        { imageUrl: 'https://i.pinimg.com/236x/2c/25/30/2c25300d38e4d375ec2d2b9730d2fb58.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/55/14/55/551455ba5c8671c34a575303cc97834d.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/8f/ef/06/8fef0639391ab3cd731c45c247414b1a.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/67/9e/ff/679eff130952f24c65d0bfa2bb5eb274.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/8c/fa/55/8cfa558be23be8d719140ce4e1d4ffbf.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5b/7b/9c/5b7b9c3eebf69b3a051d968550cb2cee.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/96/17/93/9617932ff74cbf3016b35c8417ef12eb.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/be/46/80/be46809c2fc8654535693b9ebc60c7d3.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/dd/5b/60/dd5b6017eea55d7447422ee0206f4a87.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/e5/c3/aa/e5c3aa8d9e0d97f4c5946a2122059a21.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/ce/68/6f/ce686fea39748fb45df692252876cd69.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/33/c8/07/33c8073079eb298959bec2563cb5908e.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5c/db/09/5cdb09c55bceddbe99670372780546ae.jpg', description: 'One Piece' },
+   { imageUrl: 'https://i.pinimg.com/236x/e2/11/fa/e211fab99f55b251d81cbd75bc964936.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/474x/13/5c/5b/135c5b7279aa1b655965c41d446c2d7f.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/61/44/54/614454585dd4b7320857d822f5a8d51d.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/f5/ae/79/f5ae79e7a568ac8009e9f868e0b96d22.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/d6/1d/97/d61d9799dae3feb2b1d2b01026b65bf2.jpg', description: 'One Piece Luffy' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/78/cd/00/78cd0017031e7063341f407a9232a69e.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/4d/a9/56/4da95684ba3ac7b74dbc52aafc3684d5.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/cc/4b/a1/cc4ba13fafa15cff757a69683b9f1205.jpg', description: 'One Piece' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/fc/f4/8f/fcf48f11cceb012fe3b80ed554802337.jpg', description: 'Luffy De One Piece' },
+
+        { imageUrl: 'https://i.pinimg.com/236x/14/63/74/1463742a8895ecd21b8b9b8a85ffaafe.jpg', description: 'One Piece' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/ab/15/83/ab15838ae8410f07f3a3cc0d09beef58.jpg', description: 'One Piece' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/50/37/fe/5037fe55baaef0f60477cf4c6e92fa7d.jpg', description: 'One Piece' }, 
+      
+      { imageUrl: 'https://i.pinimg.com/236x/cf/6f/22/cf6f228ee8509c716aff981b234cf724.jpg', description: 'One Piece' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/b0/3f/e2/b03fe21c12554e718d115d26ab182a76.jpg', description: 'One Piece' },
+      
+      { imageUrl: 'https://i.pinimg.com/236x/06/cf/81/06cf81a6f5ccc91a8b15942d5501440d.jpg', description: 'One Piece' }, 
+      
+      { imageUrl: 'https://i.pinimg.com/236x/ba/e3/65/bae36540c30397f257152811211dee58.jpg', description: 'One Piece' }, 
+      
+      { imageUrl: 'https://i.pinimg.com/236x/f1/03/5d/f1035d9e1bbae8ba4f8232434b7e8d7c.jpg', description: 'One Piece' }, 
+      
+      { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
+
         
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
