@@ -292,6 +292,7 @@
       
       { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
 
+
 // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
     ];
@@ -317,6 +318,7 @@
             img.src = image.imageUrl;
 
             const description = document.createElement('div');
+
             description.classList.add('description');
 
             description.textContent = image.description;
@@ -342,14 +344,15 @@
         });
 
     }
-
-    function buscarImagenes(query) {
+  
+function buscarImagenes(query) {
 
         const resultados = imagesWithDescription.filter(image =>
 
             image.description.toLowerCase().includes(query.toLowerCase())
 
         );
+
         renderImages(resultados);
 
     }
@@ -385,8 +388,7 @@
             document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
 
         } else {
-
-            galeria.style.display = "block";
+         galeria.style.display = "block";
 
             document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
 
@@ -427,7 +429,9 @@
         icon.addEventListener('click', () => {
 
             // Obtener la imagen asociada al ícono de descarga
-            const image = icon.previousElementSibling;
+
+
+         const image = icon.previousElementSibling;
 
             // Crear la URL de la imagen
 
@@ -443,99 +447,6 @@
 
 });
 
-
-const imagenesPorCategoria = {
-
-    "chibi": [
-
-        { url: "https://i.pinimg.com/236x/8e/f6/ab/8ef6ab8be1b190d489477a64178b7f7c.jpg", descripcion: "Descripción de la imagen 1" },
-
-        { url: "imagen2.jpg", descripcion: "Descripción de la imagen 2" },
-
-    ],
-
-    
-};
-
-function mostrarCategoria(categoria) {
-
-    const galeria = document.getElementById("gallery");
-
-    galeria.innerHTML = "";
-
-    const imagenes = imagenesPorCategoria[categoria];
-
-    if (imagenes) {
-
-        shuffle(imagenes);
-
-        
-
-        imagenes.forEach(function(imagen) {
-
-            const gridItem = document.createElement("div");
-
-            gridItem.className = "grid-item";
-
-            const img = document.createElement("img");
-
-            img.src = imagen.url;
-
-            img.alt = categoria;
-
-            const descripcion = document.createElement("div");
-
-            descripcion.className = "description";
-
-            descripcion.textContent = imagen.descripcion;
-
-            const downloadIcon = document.createElement("div");
-
-            downloadIcon.className = "download-icon";
-
-            downloadIcon.innerHTML = "&#x2B07;";
-
-            downloadIcon.addEventListener('click', function() {
-
-                window.open(imagen.url, '_blank');
-
-            });
-            gridItem.appendChild(img);
-
-            gridItem.appendChild(descripcion);
-
-            gridItem.appendChild(downloadIcon);
-
-            galeria.appendChild(gridItem);
-
-        });
-
-    }
-
-}
-
-function shuffle(array) {
-
-    for (let i = array.length - 1; i > 0; i--) {
-
-        const j = Math.floor(Math.random() * (i + 1));
-
-        [array[i], array[j]] = [array[j], array[i]];
-
-    }
-
-}
-
-window.onload = function() {
-
-    const categorias = Object.keys(imagenesPorCategoria);
-
-    const categoriaAleatoria = categorias[Math.floor(Math.random() * categorias.length)];
-
-    mostrarCategoria(categoriaAleatoria);
-
-};
-  
     
  
     
