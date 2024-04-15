@@ -293,6 +293,12 @@ document.addEventListener('DOMContentLoaded', function () {
       { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
 
 
+
+        
+        { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Vegeta Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Gohan Super Saiyan' },
+        { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Trunks Super Saiyan' },
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
     ];
 
@@ -339,11 +345,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Renderizar las imágenes al cargar la página
-    if (localStorage.getItem('images')) {
-        renderImages(JSON.parse(localStorage.getItem('images')));
-    } else {
-        renderImages(imagesWithDescription);
-    }
+    renderImages(imagesWithDescription);
 
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
@@ -381,14 +383,8 @@ document.addEventListener('DOMContentLoaded', function () {
             window.open(imageUrl, '_blank');
         });
     });
-
-    // Guardar el estado de las imágenes en el almacenamiento local
-    window.addEventListener('beforeunload', function() {
-        localStorage.setItem('images', JSON.stringify(imagesWithDescription));
-    });
 });
-
-
+        
 
         
 
