@@ -24,30 +24,130 @@
     </style>
     <div class="search-container">
         <button id="crear-button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAL0lEQVR4nGNgGAWjYCDAfzphBrpZNAoGP/hPr0j/P5q6RgEM0K1I+T9ado2C4QkAKPp3ibYBCjsAAAAASUVORK5CYII="></button>
-        <input type="text" id="search-input" placeholder="Buscar por descripción...">
+    
     </div>
     <div id="crear-form" style="display: none;">
         <div class="div-container">
             <h1></h1>
             <p></p>
-            ⚠️ El buscador no funciona cuando presionas el botón categorías 
-            <div class="categorias">
-                <button class="categoria-btn" onclick="mostrarCategoria('Futurista')">Futurista</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('naturaleza')">Naturaleza</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('wallpaper')">Wallpaper</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('chibi')">Chibi</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Anime')">Anime</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('moda')">Moda</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Vehículos')">Vehículos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">Dibujos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('memes')">Memes</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('noticias')">Noticias</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('🔞🍑🔞')">🔞🍑🔞</button>
-                <!-- Agrega más botones según las categorías que necesites -->
-            </div>
-        </div>
-    </div>
+            <style>
+
+    .advertencia {
+
+        background-color:#FFA500   ; /* Color de fondo amarillo */
+
+        border: #FFA500 ; /* Borde sólido amarillo */
+
+        color: ; /* Color de texto marrón */
+
+        padding: 15px;
+
+        text-align: center;
+
+        border-radius: 5px; /* Bordes redondeados */
+
+        margin-bottom: 20px; /* Espacio en la parte inferior */
+
+        font-size: 16px; /* Tamaño de fuente */
+
+        animation: pulse 1s infinite; /* Animación de pulsación infinita */
+
+    }
+
+    .advertencia strong {
+
+        color: ; /* Color de texto marrón */
+
+    }
+
+    @keyframes pulse {
+
+        0% {
+
+            transform: scale(1); /* Escala inicial */
+
+        }
+
+        50% {
+
+            transform: scale(1.05); /* Escala aumentada */
+
+        }
+
+        100% {
+
+            transform: scale(1); /* Regresar a la escala inicial */
+
+        }
+
+    }
+
+</style>
+
+<div class="advertencia">
+
+    <strong>⚠️ El buscador no funciona cuando presionas el botón categorías</strong>
+
+</div>
+<style>
+    .categoria-btn {
+        background-color: rgb(255, 0, 0); /* Color de fondo rojo */
+        border: 2px solid rgb(255, 0, 0); /* Borde sólido rojo */
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 25px; /* Bordes redondeados */
+        transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
+    }
+
+    .categoria-btn:hover {
+        background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+        border-color: #0056b3; /* Cambia el color del borde al pasar el mouse sobre el botón */
+    }
+</style>
+
+<div class="categorias">
+    <button class="categoria-btn" onclick="mostrarCategoria('Futurista ')">Futurista</button>
+
+    <button class="categoria-btn" onclick="mostrarCategoria('naturaleza ')">naturaleza</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('wallpaper ')">wallpaper</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('chibi')">Chibi</button>
+   
+    <button class="categoria-btn" onclick="mostrarCategoria('Anime')">Anime</button>
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('moda')">moda</button>
+
+    <button class="categoria-btn" onclick="mostrarCategoria('Vehículos ')">vehículos</button>
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">dibujos</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('memes')">memes</button>
+    
+
+   <button class="categoria-btn" onclick="mostrarCategoria('noticias')">noticias</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('🔞🍑🔞')">🔞🍑🔞</button>
+   <!-- Agrega más botones según las categorías que necesites -->
+    
+</div>
+
+    
+</div>
+    
+
+          
     <div id="galeria-accion" class="galeria">
         <!-- Galería de imágenes de acción -->
     </div>
