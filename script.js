@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Ultra instinto' },
 
-        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Goku' },
+        { imageUrl: 'https://i.pinimg.com/236x/bd/6b/bc/bd6bbc7bfb459f0cd08fa07ae2710aa4.jpg', description: 'Goku'keywords: ['goku', 'super saiyan', 'anime'] 
+},
 
 
         { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Goku blue ' },
@@ -300,10 +301,9 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
-    ];
-
-    // Mezclar el arreglo de imágenes de forma aleatoria
-
+    
+];
+    
     imagesWithDescription.sort(() => Math.random() - 0.5);
 
     const gridContainer = document.getElementById('grid-container');
@@ -323,6 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = image.imageUrl;
 
             const description = document.createElement('div');
+
             description.classList.add('description');
 
             description.textContent = image.description;
@@ -346,18 +347,16 @@ document.addEventListener('DOMContentLoaded', function () {
             gridContainer.appendChild(card);
 
         });
-
     }
 
     function buscarImagenes(query) {
 
         const resultados = imagesWithDescription.filter(image =>
-
-            image.description.toLowerCase().includes(query.toLowerCase())
-
+            image.description.toLowerCase().includes(query.toLowerCase()) ||
+            image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()))
         );
-        renderImages(resultados);
 
+        renderImages(resultados);
     }
 
     function abrirVistaPrevia(url) {
@@ -433,6 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
         icon.addEventListener('click', () => {
 
             // Obtener la imagen asociada al ícono de descarga
+
             const image = icon.previousElementSibling;
 
             // Crear la URL de la imagen
