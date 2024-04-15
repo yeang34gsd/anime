@@ -293,10 +293,15 @@ document.addEventListener('DOMContentLoaded', function () {
       { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
 
 
-        
+    
 
+        { 
+            imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', 
+            description: 'Goku Super Saiyan', 
+            keywords: ['goku', 'super saiyan', 'anime'] 
+        },
 
-// Agregar más objetos con URLs de imágenes y descripciones según sea necesario
+        // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
 
     ];
 
@@ -321,6 +326,7 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = image.imageUrl;
 
             const description = document.createElement('div');
+
             description.classList.add('description');
 
             description.textContent = image.description;
@@ -344,18 +350,15 @@ document.addEventListener('DOMContentLoaded', function () {
             gridContainer.appendChild(card);
 
         });
-
     }
 
     function buscarImagenes(query) {
-
         const resultados = imagesWithDescription.filter(image =>
-
-            image.description.toLowerCase().includes(query.toLowerCase())
-
+            image.description.toLowerCase().includes(query.toLowerCase()) ||
+            image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()))
         );
-        renderImages(resultados);
 
+        renderImages(resultados);
     }
 
     function abrirVistaPrevia(url) {
@@ -431,6 +434,7 @@ document.addEventListener('DOMContentLoaded', function () {
         icon.addEventListener('click', () => {
 
             // Obtener la imagen asociada al ícono de descarga
+
             const image = icon.previousElementSibling;
 
             // Crear la URL de la imagen
@@ -446,6 +450,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
 
 
 
