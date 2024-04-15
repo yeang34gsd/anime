@@ -299,13 +299,19 @@ document.addEventListener('DOMContentLoaded', function () {
       
       { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
 
+        { 
+            imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', 
+            description: 'Goku Super Saiyan', 
+            keywords: ['goku', 'super saiyan', 'anime'] 
+        },
         
         // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
     
 ];
-     // Mezclar el arreglo de imágenes de forma aleatoria
-    
+
+    // Mezclar el arreglo de imágenes de forma aleatoria
+
     imagesWithDescription.sort(() => Math.random() - 0.5);
 
     const gridContainer = document.getElementById('grid-container');
@@ -352,7 +358,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function buscarImagenes(query) {
-
         const resultados = imagesWithDescription.filter(image =>
             image.description.toLowerCase().includes(query.toLowerCase()) ||
             image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()))
@@ -450,6 +455,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
+    
+
+
+
+
+
+
+
 
 
 const imagenesPorCategoria = {
