@@ -292,6 +292,38 @@
       
       { imageUrl: 'https://i.pinimg.com/236x/3e/85/5d/3e855d28e61f7ad07b49306ebe3825c0.jpg', description: 'One Piece' },
 
+
+     { imageUrl: 'https://i.pinimg.com/236x/3f/7d/59/3f7d590ffccce0629e8714347e7b93e1.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/af/05/0e/af050e97cd97bcfdb6e99d0ac327fa32.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/cb/b9/77/cbb97760d41378eb71af755154ad3107.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/14/e2/fc/14e2fc9daf18274f038b532b2506618c.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/1a/84/90/1a8490d725410254f607e71fc3b078b6.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/9c/22/d6/9c22d69e024acd9789618f16c2af64ff.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/85/e2/21/85e22171db75eacc989c8bc109a3d552.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/b0/04/9c/b0049cf189f2b78023ad953c67aa0c31.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/3d/4e/a3/3d4ea3f3387cf73433ab955f7e6a278a.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/5b/05/11/5b05117e9835f8c9b208f9d73298f8a1.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/ea/89/57/ea8957a076fe562f579b744d955e9e45.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/62/7b/6c/627b6ce36e1a199ee539acd757b56ab9.jpg', description: 'Rem' },
+
+  { imageUrl: 'https://i.pinimg.com/236x/dc/1c/9f/dc1c9fb94f2e3cc109c1c4862790e7b0.jpg', description: 'Rem' },
+
+
+
+
+
+     
 // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
 
     ];
