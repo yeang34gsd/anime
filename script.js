@@ -439,7 +439,7 @@
 
 { imageUrl: ' https://i.pinimg.com/236x/f5/b8/8d/f5b88df13d7840a2d16dd9a8227a4a78.jpg', description: 'Pikachu' },
 
-{ imageUrl: ' https://i.pinimg.com/236x/5a/be/02/5abe029a96a8944f6aa394d01d3eca57.jpg', description: 'Pikachu' }
+{ imageUrl: ' https://i.pinimg.com/236x/5a/be/02/5abe029a96a8944f6aa394d01d3eca57.jpg', description: 'Pikachu' },
      
 
 { imageUrl: 'https://i.pinimg.com/736x/d0/fb/0c/d0fb0c1cd145983a454e57b046178c8d.jpg ', description: 'Tanjiro Kamado' },
