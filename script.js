@@ -441,6 +441,45 @@
 
 { imageUrl: ' https://i.pinimg.com/236x/5a/be/02/5abe029a96a8944f6aa394d01d3eca57.jpg', description: 'Pikachu' }
      
+
+{ imageUrl: 'https://i.pinimg.com/736x/d0/fb/0c/d0fb0c1cd145983a454e57b046178c8d.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/2c/1a/3d/2c1a3d9fcaa213eaae89b66341f22438.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/d2/af/fd/d2affd32aa34779b8384167591b6ae53.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/72/be/63/72be63348fa29f5803f58ec09b5654f5.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/29/9d/d2/299dd2422d015dcc083544676adbd571.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/fb/15/bd/fb15bdd6085c8156baf45f1a11a7e355.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/5c/5d/f9/5c5df9146f3b0812445f7e993bb95de6.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/df/bc/cd/dfbccd3a2a70de6ef863e4666b47d5d3.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/cb/9a/d8/cb9ad825e09240c43f67246d358a5ab5.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/b6/97/57/b6975790be10048e1db298a76c80acb5.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/736x/38/31/4c/38314ce9e6a38cc6d946d7be0ae8257b.jpg ', description: 'Tanjiro Kamado' },
+     { imageUrl: ' https://i.pinimg.com/236x/e7/96/5d/e7965da34c58e075b051474198ff5ecf.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/f6/6f/8e/f66f8e1562f7a1a5de423022a2119e96.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/20/87/b1/2087b165d994201319d33feab3fbb1b1.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/28/6f/c2/286fc26f84ff6379e3157a46a34d1d22.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/4f/7c/61/4f7c61460c3b7b02c170b466cc790ddc.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: 'https://i.pinimg.com/236x/0b/48/6c/0b486c9055cc1688912ed4c1fe7da36e.jpg ', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/09/1d/52/091d5212a672e6797c0417957624970b.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/c7/5f/ee/c75feeba5c9de67ba962ce1e6c22010d.jpg', description: 'Tanjiro Kamado' },
+
+{ imageUrl: ' https://i.pinimg.com/236x/df/bc/cd/dfbccd3a2a70de6ef863e4666b47d5d3.jpg', description: 'Tanjiro Kamado' },
      
      
 // Agregar más objetos con URLs de imágenes y descripciones según sea necesario
