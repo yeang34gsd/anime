@@ -679,12 +679,9 @@
 
 
    
- { 
-    imageUrl: 'https://i.pinimg.com/236x/ce/68/6f/ce686fea39748fb45df692252876cd69.jpg', 
-    description: 'One Piece',
-    keywords: ['Monkey D. Luffy', 'Roronoa Zoro', 'Nami', 'Usopp', 'Sanji', 'Tony Tony Chopper', 'Nico Robin', 'Franky', 'Brook', 'Jinbe']
-  },
-  { 
+ 
+    
+     {
     imageUrl: 'https://i.pinimg.com/236x/33/c8/07/33c8073079eb298959bec2563cb5908e.jpg', 
     description: 'One Piece',
     keywords: ['Monkey D. Luffy', 'Roronoa Zoro', 'Nami', 'Usopp', 'Sanji', 'Tony Tony Chopper', 'Nico Robin', 'Franky', 'Brook', 'Jinbe']
