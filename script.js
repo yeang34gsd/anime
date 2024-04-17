@@ -2,39 +2,98 @@
 
     const imagesWithDescription = [
 
-        { imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', description: 'Goku Ultra instinto' },
+        { 
+    imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', 
+    description: 'Goku Ultra instinto',
+    keywords: ['Vegeta', 'Jiren', 'Whis', 'Kaiōshin', 'Bills']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', 
+    description: 'Goku blue',
+    keywords: ['Trunks', 'Goten', 'Freezer', 'Cell', 'Majin Buu']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/66/70/b1/6670b17023dacc00b6fcf329ff70c867.jpg', 
+    description: 'Goku y Vegeta',
+    keywords: ['Gohan', 'Piccolo', 'Majin Buu', 'Tenshinhan', 'Yamcha']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/8b/7e/85/8b7e85054d6f27e68108d4a4cb103bb2.jpg', 
+    description: 'Goku Black',
+    keywords: ['Zamasu', 'Trunks del futuro', 'Gowasu', 'Mai', 'Bulma']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/68/06/ba/6806ba0ae4658674741452b1d81e6c25.jpg', 
+    description: 'Goku black',
+    keywords: ['Gowasu', 'Zamasu', 'Trunks del futuro', 'Mai', 'Bulma']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/92/35/8d/92358d67653aff4656524b07b50f0a30.jpg', 
+    description: 'Goku fase Dios',
+    keywords: ['Bills', 'Whis', 'Kaiōshin', 'Kibito', 'Dende']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/87/81/d3/8781d34c454436beadecb7c3a6d94fa3.jpg', 
+    description: 'Vegito',
+    keywords: ['Gogeta', 'Zamasu', 'Majin Buu', 'Fusiones', 'Goku y Vegeta']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/63/e6/9d/63e69d883bff06e94bdb2c761b1e6f4b.jpg', 
+    description: 'Black goku',
+    keywords: ['Zamasu', 'Trunks del futuro', 'Gowasu', 'Mai', 'Bills']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/16/2e/50/162e5056ce36a2efcdf2caeed48a64c2.jpg', 
+    description: 'Goku Super Saiyan',
+    keywords: ['Gohan', 'Goten', 'Trunks', 'Vegeta', 'Piccolo']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/f7/4b/25/f74b25af43028a54950dce2c02060b6a.jpg', 
+    description: 'Goku y Vegeta',
+    keywords: ['Gohan', 'Piccolo', 'Majin Buu', 'Tenshinhan', 'Yamcha']
+  },
+     
 
-        { imageUrl: 'https://i.pinimg.com/236x/69/a9/50/69a950cb3087d31940d64f10aef2309a.jpg', description: 'Goku blue ' },
-    
-  { imageUrl: 'https://i.pinimg.com/236x/66/70/b1/6670b17023dacc00b6fcf329ff70c867.jpg', description: 'Goku y Vegeta' },
+     
 
-  { imageUrl: 'https://i.pinimg.com/236x/8b/7e/85/8b7e85054d6f27e68108d4a4cb103bb2.jpg', description: 'Goku Black' }, 
 
-  { imageUrl: 'https://i.pinimg.com/236x/68/06/ba/6806ba0ae4658674741452b1d81e6c25.jpg', description: 'Goku black' }, 
+{ 
+    imageUrl: 'https://i.pinimg.com/236x/a8/2d/14/a82d1474bb3bc54c841e819dd52aefdc.jpg', 
+    description: 'Goku Ultra Instinto',
+    keywords: ['Vegeta', 'Jiren', 'Whis', 'Kaiōshin', 'Bills']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/ad/fa/86/adfa86338fa7617d8285893e31004e6c.jpg', 
+    description: 'Goku Super Saiyan',
+    keywords: ['Gohan', 'Goten', 'Trunks', 'Vegeta', 'Piccolo']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/d2/4b/93/d24b93579304bddba38c4d7bd15696e5.jpg', 
+    description: 'transformaciones de Goku',
+    keywords: ['Gohan', 'Piccolo', 'Majin Buu', 'Tenshinhan', 'Yamcha']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/ec/b1/b6/ecb1b68754e6428411f14b5d49e13199.jpg', 
+    description: 'Goku Super Saiyan',
+    keywords: ['Gohan', 'Goten', 'Trunks', 'Vegeta', 'Piccolo']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/56/e9/eb/56e9eb3cdb111068d3ec30afee07d276.jpg', 
+    description: 'Ultra instinto',
+    keywords: ['Vegeta', 'Jiren', 'Whis', 'Kaiōshin', 'Bills']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/76/8c/e5/768ce5a2a335ccfd8a60ccd25e52c948.jpg', 
+    description: 'Fases de Goku',
+    keywords: ['Gohan', 'Piccolo', 'Majin Buu', 'Tenshinhan', 'Yamcha']
+  },
+  { 
+    imageUrl: 'https://i.pinimg.com/236x/14/61/4c/14614cd9808466b29cdeb5257ee80f99.jpg', 
+    description: 'Ultra Instinto',
+    keywords: ['Vegeta', 'Jiren', 'Whis', 'Kaiōshin', 'Bills']
+  },
 
-  { imageUrl: 'https://i.pinimg.com/236x/92/35/8d/92358d67653aff4656524b07b50f0a30.jpg', description: 'Goku fase Dios' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/87/81/d3/8781d34c454436beadecb7c3a6d94fa3.jpg', description: 'Vegito' }, 
-
-  { imageUrl: 'https://i.pinimg.com/236x/63/e6/9d/63e69d883bff06e94bdb2c761b1e6f4b.jpg', description: 'Black goku' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/16/2e/50/162e5056ce36a2efcdf2caeed48a64c2.jpg', description: 'Goku Super Saiyan' },
-        { imageUrl: 'https://i.pinimg.com/236x/f7/4b/25/f74b25af43028a54950dce2c02060b6a.jpg', description: 'Goku y Vegeta' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/a8/2d/14/a82d1474bb3bc54c841e819dd52aefdc.jpg', description: 'Goku Ultra Instinto' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/ad/fa/86/adfa86338fa7617d8285893e31004e6c.jpg', description: 'Goku Super Saiyan' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/d2/4b/93/d24b93579304bddba38c4d7bd15696e5.jpg', description: ' transformaciónes de Goku ' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/ec/b1/b6/ecb1b68754e6428411f14b5d49e13199.jpg', description: 'Goku Super Saiyan' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/56/e9/eb/56e9eb3cdb111068d3ec30afee07d276.jpg', description: 'Ultra instinto ' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/76/8c/e5/768ce5a2a335ccfd8a60ccd25e52c948.jpg', description: 'Fases de goku' },
-
-  { imageUrl: 'https://i.pinimg.com/236x/14/61/4c/14614cd9808466b29cdeb5257ee80f99.jpg', description: 'Ultra Instinto ' },
-        
+     
   { imageUrl: 'https://i.pinimg.com/236x/15/f9/05/15f905fa6f748ebc4d974dd83eed02e5.jpg', description: 'Sakura Haruno' },
 
   { imageUrl: 'https://i.pinimg.com/236x/0a/a9/9f/0aa99fd35cf415c28bc0b02b4e0961cb.jpg', description: 'Sasuke Uchiha' },
