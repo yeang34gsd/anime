@@ -674,7 +674,7 @@
   { 
     imageUrl: 'https://i.pinimg.com/236x/e5/c3/aa/e5c3aa8d9e0d97f4c5946a2122059a21.jpg', 
     description: 'One Piece',
-    keywords: ['Monkey D. Luffy', 'Roronoa Zoro', 'Nami', 'Usopp', 'Sanji', 'Tony Tony Chopper]
+    keywords: ['Monkey D. Luffy', 'Roronoa Zoro', 'Nami', 'Usopp', 'Sanji', 'Tony Tony Chopper']
    },          
 
 
