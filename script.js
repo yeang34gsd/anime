@@ -2395,7 +2395,252 @@
     keywords: ['Palabra clave 1', 'Palabra clave 2', 'Palabra clave 3']
   },
 
+     {
+      imageUrl: 'https://i.pinimg.com/236x/e6/0c/64/e60c643995e59b2bfd59809d54fb994b.jpg',
 
+    description: 'katsumi',
+
+    keywords: ['bulma', 'anime', 'waifu']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/19/60/bc/1960bc47dbc5f28be6f41d484514496e.jpg',
+
+    description: 'Hanae',
+
+    keywords: ['waifu', 'anime', ]
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/85/1e/61/851e61541ab65b87f3ecb5cb7af7caa6.jpg',
+
+    description: 'Araki',
+
+    keywords: ['waifu', 'anime', 'sexi']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/72/32/ee/7232ee9671e01a7345fc4fa49f9f44ac.jpg',
+
+    description: 'matsuura',
+
+    keywords: ['waiu', 'waifu', 'anime']
+
+  },
+
+
+     {
+
+    imageUrl: 'https://i.pinimg.com/236x/0a/5b/a7/0a5ba7988a65491ca597bff86592da47.jpg',
+
+    description: 'Gohan',
+
+    keywords: ['dragon ball', 'goku', 'videl']
+
+  },
+
+
+{
+
+    imageUrl: 'https://i.pinimg.com/236x/85/f1/be/85f1be2a77298405b35eb12d75a63619.jpg',
+
+    description: 'Animes',
+
+    keywords: ['goku', 'one picee', 'naruto', 'luffy',]
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/96/d2/fa/96d2fa8829e5838a82b5ea54732d4b09.jpg',
+
+    description: 'vegeta y goku ',
+
+    keywords: ['gohan', 'ultra ', 'goku']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/c1/f7/11/c1f7110f47d61943338ae23185e8d4b5.jpg',
+
+    description: 'Tokamachi',
+
+    keywords: ['goku', 'luffy', 'naruto']
+
+  },
+
+
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/2b/80/3f/2b803fac675c1c6ac2e71ae5a3c9f15a.jpg',
+
+    description: 'demon slayer',
+
+    keywords: ['tanjiro', 'rengoku', ]
+
+  },
+
+ 
+    
+    {
+
+    imageUrl: 'https://i.pinimg.com/236x/c8/c7/c4/c8c7c46e12cbddf35a1de2f2782232c7.jpg',
+
+    description: 'Luffy',
+
+    keywords: ['one piecee', 'robin', 'luffy']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/8c/4b/bc/8c4bbc54247f4cbff20c61ab808c4ccc.jpg',
+
+    description: 'kuma y kumi',
+
+    keywords: ['kumi', 'waifu', 'anime']
+
+  },
+      
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/f9/a2/8b/f9a28b83e3c2bf67b4f30ebdb257c0b6.jpg',
+
+    description: 'Rebeca',
+
+    keywords: ['anime', 'waifu', 'cyberpunk']
+
+  },
+
+
+     
+{
+
+    imageUrl: 'https://i.pinimg.com/236x/af/53/c5/af53c5a0ab6653597a48ca777b1f4882.jpg',
+
+    description: 'Fubuki',
+
+    keywords: ['saitama', 'waifu', 'anime']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/bc/6b/b9/bc6bb9d714ed6f2d1d4a3f1b8a7d2ce4.jpg',
+
+    description: 'Inosuke',
+
+    keywords: ['rengoku', 'tangitro', 'demon slayer']
+
+  },
+      
+      
+      {
+
+    imageUrl: 'https://i.pinimg.com/236x/9c/f9/f0/9cf9f016d8ad23fdc8e09d48b8a258b3.jpg',
+
+    description: 'kami',
+
+    keywords: ['anime', 'anime', 'waifu']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/474x/91/f9/d2/91f9d2cc9d177c6bc21e421b3d41c469.jpg',
+
+    description: 'Gojo Satoru',
+
+    keywords: ['anime' ]
+
+  },
+
+
+
+
+     
+{
+
+    imageUrl: 'https://i.pinimg.com/236x/43/cd/7c/43cd7c65d590d2f41c05a23f3dfe82d4.jpg',
+
+    description: 'Anya Forger | Spy x Family',
+
+    keywords: ['anime']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/72/df/19/72df1986a31b0e258e2f7985d7373ddc.jpg',
+
+    description: ' wallpaper ',
+
+    keywords: ['fotos de fondo']
+
+  },
+      
+      
+    {
+
+    imageUrl: 'https://i.pinimg.com/236x/31/cd/8d/31cd8df183ad08d16eb98fd36f686312.jpg',
+
+    description: ' wallpaper ',
+
+    keywords: ['fondo de pantalla']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/84/f8/e5/84f8e53051bf0715a7c01ee339760093.jpg',
+
+    description: 'Rebeca',
+
+    keywords: ['waifu', 'anime', 'cyperpunk']
+
+  },
+
+
+
+{
+
+    imageUrl: 'https://i.pinimg.com/236x/eb/28/55/eb285582442d6c2a51f7a40a48963fec.jpg',
+
+    description: 'Gohan',
+
+    keywords: ['goku', 'vegeta', 'dragon ball']
+
+  },
+
+  {
+
+    imageUrl: 'https://i.pinimg.com/236x/72/b7/08/72b708f16bd397c5be4a2834ecf6064d.jpg',
+
+    description: 'gwen ',
+
+    keywords: ['spiderman', 'waifu']
+  } ,
+
+     
+
+
+
+
+
+
+
+
+
+
+     
      
      
 
