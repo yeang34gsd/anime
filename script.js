@@ -3440,12 +3440,76 @@ const imagenesPorCategoria = {
 
     ],
   
-  "🔞🍑🔞": [
+  "Waifus": [
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+{ url:     "https://i.pinimg.com/236x/27/ff/8d/27ff8dcb8e78fff40dca13e4e09538bd.jpg", descripcion: "Kasumi" },
 
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+{ url: "https://i.pinimg.com/236x/70/08/24/700824eadf8e3e0eb504729c5d4b174b.jpg", descripcion: "yor" },
 
+{ url: "https://i.pinimg.com/736x/b2/87/2c/b2872cee62520df4e42136601dd0b888.jpg", descripcion: "Kasumi" },
+
+{ url: "https://i.pinimg.com/236x/3d/d0/a6/3dd0a603b0059a5ffc7152fc9ed3b14c.jpg", descripcion: "Yumi" },
+
+{ url: "https://i.pinimg.com/564x/c7/b3/d2/c7b3d28b10ba631e6bde9a766b6cf0ec.jpg", descripcion: "Katsuni" },
+
+{ url: "https://i.pinimg.com/236x/d0/c8/9d/d0c89d8daebde8740a7625fc325c62b8.jpg", descripcion: "Amane" },
+
+{ url: "https://i.pinimg.com/236x/a4/74/a2/a474a2da035cd12ec2eb69e5a90c3f00.jpg", descripcion: "himari" },
+
+{ url: "https://i.pinimg.com/736x/22/b9/83/22b9833ec05c6772f1a6cc4e23b6d1ee.jpg", descripcion: "Hana" },
+
+{ url: "https://i.pinimg.com/236x/81/35/42/8135421214ff2a875f60376bdcda2fda.jpg", descripcion: "Akiko" },
+
+{ url: "https://i.pinimg.com/474x/16/49/38/164938a800369520e9aa3217749d563a.jpg", descripcion: "Aiko" },
+
+{ url: "https://i.pinimg.com/236x/4f/77/1a/4f771a00d86f52052ae1b895f6f9a071.jpg", descripcion: "Azumi" },
+
+
+{ url: "https://i.pinimg.com/236x/29/95/e3/2995e3ca08e96e39a3a7bb7c8c1070dc.jpg", descripcion: "Hana" },
+
+{ url: "https://i.pinimg.com/236x/63/ce/05/63ce059372d849e9660ddce923d79006.jpg", descripcion: "Hanaku" },
+
+   { url: "https://i.pinimg.com/236x/5d/9b/f3/5d9bf3f29c7fd6c32d136998273abd39.jpg", descripcion: "Aoi" },
+
+{ url: "https://i.pinimg.com/236x/aa/b1/ee/aab1eeb09cbf46eada6a11750fafb311.jpg", descripcion: "Ame" },
+
+{ url: "https://i.pinimg.com/236x/ee/d5/58/eed558bf08abb77aee4cdc26613f8a98.jpg", descripcion: "Hiroko" },
+
+{ url: "https://i.pinimg.com/236x/36/a0/36/36a0369b5c0343083717db0031ad0770.jpg", descripcion: "Hoshi" },
+
+{ url: "https://i.pinimg.com/236x/49/cc/9b/49cc9b705c692d6d72b3086c0668ddf1.jpg", descripcion: "Hikari" },
+
+{ url: "https://i.pinimg.com/236x/4f/a8/fa/4fa8fa77e7bda09b80a6543c60311229.jpg", descripcion: "Ima" },
+
+{ url: "https://i.pinimg.com/236x/b8/5d/73/b85d7310e46be57ddaaf73f96f1573fb.jpg", descripcion: "Jin" },
+
+{ url: "https://i.pinimg.com/236x/b4/b8/bf/b4b8bfee10c80b31e99f7e6d9fb68b57.jpg", descripcion: "Kai" },
+  { url: "https://i.pinimg.com/236x/c2/fa/6a/c2fa6a6598664885ea35045e6dfe105d.jpg", descripcion: "Kaoti" },
+
+{ url: "https://i.pinimg.com/236x/7b/6c/95/7b6c95fe619d413e464f469aa3f97002.jpg", descripcion: "Kazumi" },
+
+{ url: "https://i.pinimg.com/236x/b4/3a/03/b43a03a4e29bdc146cc7ff7ace48020a.jpg", descripcion: "Katsumi" },
+
+{ url: "https://i.pinimg.com/236x/34/d4/5d/34d45dac31909ea042323658cd4f5d96.jpg", descripcion: "Kimi" },
+
+{ url:"https://i.pinimg.com/236x/ca/86/f7/ca86f747c1b2d62771d5404e3b58cbdd.jpg", descripcion: "Kumiko" },
+
+   { url: "https://i.pinimg.com/236x/3b/9a/24/3b9a2440c8438ed13dd765379dc6345a.jpg", descripcion: "Kimi" },
+
+{ url: "https://i.pinimg.com/236x/4a/21/ec/4a21ec411b49fbce3835679f518c9e50.jpg", descripcion: "kioko" },
+
+{ url: "https://i.pinimg.com/236x/5f/6f/12/5f6f1241e1f8066868fc5fd2ecd60040.jpg", descripcion: "Masako" },
+
+{ url: "https://i.pinimg.com/236x/fa/4b/1f/fa4b1ff9afa0d37570897c55d9398b8f.jpg", descripcion: "Mayu" },
+
+{ url: "https://i.pinimg.com/236x/74/c2/4b/74c24bf0a5580276b447bfe80226d4d4.jpg", descripcion: "maiko" },
+
+{ url: "https://i.pinimg.com/236x/aa/c7/21/aac721934253dbc372f33fb1e6b0d810.jpg", descripcion: "Nara" },
+
+{ url: "https://i.pinimg.com/236x/5c/d5/80/5cd580b43d87942c6122d6f07bd81ff7.jpg", descripcion: "Nomi" },
+    
+   
+        
     ],
   
   
