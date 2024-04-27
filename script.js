@@ -3647,13 +3647,7 @@ const imagenesPorCategoria = {
 
     ],
   
-  "noticias": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
+  
   
   "naturaleza ": [
 
@@ -3763,13 +3757,7 @@ const imagenesPorCategoria = {
     ],
   
   
-  "Anime": [
-
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
-    ],
+  
 
     
 };
