@@ -3608,10 +3608,34 @@ const imagenesPorCategoria = {
   
   "Vehículos ": [
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+   { url: "https://i.pinimg.com/236x/8e/d2/b3/8ed2b3e0a49900f6b4f1e897883286af.jpg", descripcion: "moto futurista" },
 
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+  { url: "https://i.pinimg.com/236x/15/2e/75/152e756d6cc7430e99125d61a694c7f2.jpg", descripcion: "Nissan Skyline" },
 
+  { url: "https://i.pinimg.com/236x/bb/ae/9c/bbae9ce1ba5e53a4bcfa895939e8aab8.jpg", descripcion: "Ferrari LaFerrari 2024 " },
+
+  { url: "https://i.pinimg.com/236x/c9/df/75/c9df757f789ab0e767671869d6970e5f.jpg", descripcion: "Ferrari LaFerrari" },
+
+  { url: "https://i.pinimg.com/236x/b8/a5/7a/b8a57a739912b1553cf0692d5ed1ee9e.jpg", descripcion: "Lamborghini Aventador " },
+
+  { url: "https://i.pinimg.com/236x/3d/85/cc/3d85cc8126905213237d21ccb2c4b502.jpg", descripcion:"Camión Futurista " },
+
+  { url: "https://i.pinimg.com/236x/64/16/a1/6416a188623d60bd613cce3cc20d9228.jpg", descripcion: "Mercedes-Benz futurista" },
+
+  { url: "https://i.pinimg.com/236x/59/e7/75/59e775c9828c6b8faaa6b53607d841e4.jpg", descripcion: "Nave Volador Futurista" },
+
+  { url: "https://i.pinimg.com/236x/e6/57/b3/e657b301a3732769badfe9e41ffa6e7a.jpg", descripcion: "Bugatti Chiron" },
+
+  { url: "https://i.pinimg.com/236x/71/7d/ae/717daec27d4802abfade6235d6582f66.jpg", descripcion: "Bugatti Vision Gran Turismo" },
+      { url: "https://i.pinimg.com/236x/2b/fc/81/2bfc81f1fa062a7ae54646251957b9a4.jpg", descripcion: "Auto Del Futuro" },
+
+  { url: "https://i.pinimg.com/236x/4d/38/49/4d384999f480951022637b600e2d43e6.jpg", descripcion: "Coche Deportivo Eléctrico" },
+
+  { url: "https://i.pinimg.com/236x/be/fd/86/befd863136491c03187148935ae69c0e.jpg", descripcion: "Nave Futurista" },
+
+  { url: "https://i.pinimg.com/236x/c7/51/5f/c7515f8eefbc1da43a603ac45b29896a.jpg", descripcion: "Patineta Electtrica" },
+
+        
     ],
   "dibujos": [
 
