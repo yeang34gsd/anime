@@ -3634,7 +3634,87 @@ const imagenesPorCategoria = {
   { url: "https://i.pinimg.com/236x/be/fd/86/befd863136491c03187148935ae69c0e.jpg", descripcion: "Nave Futurista" },
 
   { url: "https://i.pinimg.com/236x/c7/51/5f/c7515f8eefbc1da43a603ac45b29896a.jpg", descripcion: "Patineta Electtrica" },
+{ url: "https://i.pinimg.com/236x/32/ee/93/32ee938df9697b363a45bcf12520efc6.jpg", descripcion: "Camión Futurista" },
 
+  { url: "https://i.pinimg.com/236x/3a/0f/dc/3a0fdc2bdd302c01d9a3a258c304b47c.jpg", descripcion: "Yate" },
+
+  { url: "https://i.pinimg.com/236x/91/e8/90/91e89077993db5dba5f03d726c8f72a0.jpg", descripcion: "Yate De Lujo" },
+
+  { url: "https://i.pinimg.com/236x/31/a2/7f/31a27fb0b57e8321964a09c8142ffffa.jpg", descripcion: "cyber arquitectura" },
+      { url: "https://i.pinimg.com/236x/23/c3/34/23c334854c691553ffaa5f0fdf05fb3c.jpg", descripcion: "Lamborghini Terzo Millennio" },
+
+  { url: "https://i.pinimg.com/236x/a4/61/68/a461686012181da34f289181b70d2b4b.jpg", descripcion: "Auto Futurista" },
+
+  { url: "https://i.pinimg.com/236x/98/25/25/98252567a318453c4e5316e1e6303c61.jpg", descripcion: "Batmobile" },
+      
+
+  { url: "https://i.pinimg.com/236x/4b/55/ce/4b55ce214a7403143a1bda60b50f63c7.jpg", descripcion: "Auto del Futurista" },
+
+  { url: "https://i.pinimg.com/236x/a6/28/e5/a628e5c1e7f59edbaffc93426987f9a5.jpg", descripcion: "luxury car" },
+
+  { url: "https://i.pinimg.com/236x/e5/49/bc/e549bc10858b7e98e5325fc93e0edb8b.jpg", descripcion: "Dron De Ataque" },
+
+  { url: "https://i.pinimg.com/236x/5f/2e/f6/5f2ef6144a664714cef8331ae4759c37.jpg", descripcion: "Nave Futurista" },
+
+  { url: "https://i.pinimg.com/236x/84/31/2e/84312e94976320ad4d2c73b47537af9a.jpg", descripcion: "lamborghini huracan" },
+
+  { url: "https://i.pinimg.com/236x/56/6c/d7/566cd708ae6898bf2d5350f89adf18f0.jpg", descripcion: "Cyberpunk 2077" },
+
+  { url: "https://i.pinimg.com/236x/c7/aa/a0/c7aaa049a1aa37006d47cfaf6cb63523.jpg", descripcion: "ferrari rojo" },
+
+
+
+{ url: "https://i.pinimg.com/236x/a0/93/98/a093984ac263264ad96283d165dd7d8f.jpg", descripcion: "lamborghini aventador" },
+      
+      { url: "https://i.pinimg.com/236x/19/ed/98/19ed985b3d74cb76c84ab0406b998d11.jpg", descripcion: "Toyota Supra" },
+
+  { url: "https://i.pinimg.com/236x/98/39/8f/98398f0601ae6fca85f955f055d356ad.jpg", descripcion: "Nissan GT-R" },
+
+  { url: "https://i.pinimg.com/236x/d5/c0/b7/d5c0b7a45d89f977fb9009f90c35365d.jpg", descripcion: "Nissan Skyline" },
+
+  { url: "https://i.pinimg.com/236x/ae/71/85/ae71854bbb83ae5f0f477ada2aa9970e.jpg", descripcion: "Bmw m3" },
+
+  { url: "https://i.pinimg.com/236x/7f/4c/4a/7f4c4af3143238dfc75226fde36003fe.jpg", descripcion: "Motocicleta de carera" },
+
+ 
+
+  { url: "https://i.pinimg.com/236x/3d/d0/a6/3dd0a603b0059a5ffc7152fc9ed3b14c.jpg", descripcion: "ferrari rojo" },
+
+  { url: "https://i.pinimg.com/236x/6a/c5/b5/6ac5b5bb01a3621805819b0a724b335b.jpg", descripcion: "BMW i8" },
+      
+      { url: "https://i.pinimg.com/236x/67/0f/f9/670ff9debabf8373e7fc56bf629f51c6.jpg", descripcion: "Porsche 911" },
+
+  { url: "https://i.pinimg.com/236x/67/74/15/6774150483d7727b4788e0a8f4e8fe86.jpg", descripcion: "Nissan Skyline" },
+
+  { url: "https://i.pinimg.com/236x/6c/ff/e7/6cffe766d7fdee4886c55c08b61a3bed.jpg", descripcion: "Lamborghini " },
+
+  { url: "https://i.pinimg.com/236x/95/7e/36/957e36609a54b33c3b756a41577aadff.jpg", descripcion: "Autos Tuneados" },
+
+  { url: "https://i.pinimg.com/236x/73/d8/be/73d8be924455796558f0ec35629907ca.jpg", descripcion: "lamborghini amarillo" },
+
+  { url: "https://i.pinimg.com/236x/0f/60/05/0f600553f94a33b795bf2b8177bfa38d.jpg", descripcion: "Nissan GT-R" },
+
+  { url: "https://i.pinimg.com/236x/59/38/16/5938165766f6769df51f5b81d9e994c3.jpg", descripcion: "" },
+
+
+{ url: "https://i.pinimg.com/236x/d8/5c/fd/d85cfd50a60228c796d3461c096d8cf3.jpg", descripcion: "Yamaha YZF-R6" },
+
+  { url: "https://i.pinimg.com/236x/a9/ac/31/a9ac31057776f8c6a23e748c45534e48.jpg", descripcion: "Lamborghini" },
+
+  { url: "https://i.pinimg.com/236x/71/55/bf/7155bff77ba15d459d4745c25a01befe.jpg", descripcion: "Coche Deportivo" },
+
+  { url: "https://i.pinimg.com/236x/95/05/56/950556fc70f9a0c4a35efdc52a8ac449.jpg", descripcion: "ferrari rojo" },
+
+  { url: "https://i.pinimg.com/236x/da/17/56/da1756b9465ba6d1279b0daeeb050357.jpg", descripcion: "lamborghini" },
+
+  { url: "https://i.pinimg.com/236x/0b/fd/20/0bfd203c3f6c5596fd6a09efea57d8d7.jpg", descripcion: "mercedes benz" },
+
+
+   
+
+   
+
+   
         
     ],
   "dibujos": [
