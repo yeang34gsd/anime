@@ -3662,7 +3662,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   description: 'Wallpaper| spiderman',
   keywords: ['Spiderman', 'fondos']
 },
-  imageUrl: 'https://i.pinimg.com/736x/69/6c/ca/696cca000f4338980732f13d17d56e42.jpg', 
+             {imageUrl: 'https://i.pinimg.com/736x/69/6c/ca/696cca000f4338980732f13d17d56e42.jpg', 
   description: 'Wallpaper|spiderman',
   keywords: ['Spiderman', 'fondos de pantalla', 'anime', 'fotos', 'Batman']
 },
