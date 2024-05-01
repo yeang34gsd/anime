@@ -3755,7 +3755,7 @@ const imagenesPorCategoria = {
 
   { url: "https://i.pinimg.com/236x/b3/3c/6a/b33c6aa045660e33fa5284c2187a7ed7.jpg", descripcion: "Wallpaper depredador" },
 
-  { url: "https://i.pinimg.com/236x/b7/f8/20/b7f8204cb06308fdf9945647e1c7620f.jpg", descripcion: "Wallpaper broli" }
+  { url: "https://i.pinimg.com/236x/b7/f8/20/b7f8204cb06308fdf9945647e1c7620f.jpg", descripcion: "Wallpaper broli" },
 
  { url: "https://i.pinimg.com/236x/b2/12/3d/b2123d6892548d576659900c73a3e0a0.jpg", descripcion: "Wallpaper spiderman" },
 
