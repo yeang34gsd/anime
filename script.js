@@ -3598,11 +3598,288 @@ const imagenesPorCategoria = {
     ],
 
     "wallpaper ": [
+{ url: "https://i.pinimg.com/236x/c0/ee/d9/c0eed963cfbbb522cf5b69d9b4d35e7e.jpg", descripcion: "Wallpaper Nissan Skyline " },
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+  { url: "https://i.pinimg.com/236x/c6/00/5f/c6005f40f394a726701fa2acfb9b073a.jpg", descripcion: "Wallpaper Rebecca " },
 
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+  { url: "https://i.pinimg.com/236x/5b/15/58/5b1558afb2bac25a1b36e1bebc815f09.jpg", descripcion: "Wallpaper Chica Gamer" },
 
+  { url: "https://i.pinimg.com/236x/68/f8/b6/68f8b61e29808c3bed25471deb63887f.jpg", descripcion: "Wallpaper Lucyna Kushinada" },
+
+  { url: "https://i.pinimg.com/236x/d2/5e/7c/d25e7c3b75eae995c86e9513f0d7a290.jpg", descripcion: "Wallpaper Rebeca" },
+
+  { url: "https://i.pinimg.com/564x/b6/73/4b/b6734b8933b5be3a297c9cf0a6f8a8c8.jpg", descripcion: "Wallpaper Nissan Skyline" },
+
+  { url: "https://i.pinimg.com/236x/05/c0/01/05c00176f15c37c5a6fe672b1d37386b.jpg", descripcion: "Wallpaper Rebeca" },
+
+  { url: "https://i.pinimg.com/236x/85/72/ca/8572ca2dbbf5c616d75667497923bdf7.jpg", descripcion: "Wallpaper Lucyna Kushinada" },
+
+  { url: "https://i.pinimg.com/236x/78/9b/0f/789b0f68258068f2917fe43ce5b04f06.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/bc/5d/92/bc5d9227e8931d59f0a9b12aa030a76f.jpg", descripcion: "Wallpaper Katsuni" },
+
+  { url: "https://i.pinimg.com/236x/45/64/3c/45643cbf94fb124c29e6ecc10b5dbf06.jpg", descripcion: "Wallpaper Kumi" },
+
+  { url: "https://i.pinimg.com/236x/a9/4a/b5/a94ab5f9bba904e1f94c88a013533ac8.jpg", descripcion: "Wallpaper Amane" },
+
+  { url: "https://i.pinimg.com/236x/9f/92/73/9f92733060dc1b463174cf29af6c12ec.jpg", descripcion: "Wallpaper Kasumi" },
+
+  { url: "https://i.pinimg.com/236x/b4/d6/ca/b4d6ca8d43aab9a79ea06f1e8cefce02.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/9d/cf/56/9dcf5672bc4ebcc4db9c98f43ad54fd0.jpg", descripcion: "Wallpaper Amane" },
+
+     { url: "https://i.pinimg.com/236x/1a/cd/aa/1acdaa5ec8548b97b8a0feae0339cfc9.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/9c/6e/1a/9c6e1a0bb2bca009ef8b733b73616a0c.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/32/2d/c8/322dc83cb55ef1c9a9a1b0de848d3c32.jpg", descripcion: "Wallpaper|Jordan" },
+
+  { url: "https://i.pinimg.com/236x/d2/67/91/d26791ec0231c9e4b70fc570f6f7d85d.jpg", descripcion: "Wallpaper " },
+      { url: "https://i.pinimg.com/236x/2d/d4/0a/2dd40a85474530d369b5173cc0dc48cd.jpg", descripcion: "Wallpaper|mercedes" },
+
+  { url: "https://i.pinimg.com/236x/13/4b/38/134b3837e528062d92fca566396be387.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/474x/f5/c4/9d/f5c49d15458273a68c2f9c80d8260356.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/47/2a/ee/472aee30d09a66de7d322cfc2da41580.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/bc/ce/24/bcce24d63db696c7c28a69e2bc8e3924.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/474x/a1/5d/74/a15d74e6081eeca47dab03068c73a8d9.jpg", descripcion: "Wallpaper" },
+     { url: "https://i.pinimg.com/564x/57/d9/5f/57d95f3dee63d0d5a901952fc9440b84.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/d1/92/a9/d192a9f306bbed1179de799052dfbacf.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/38/5a/4c/385a4c13099fbfc60f147650ef69b8d3.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/d8/21/b3/d821b30bb84ee6f4bb8e9365915fdd88.jpg", descripcion: "Wallpaper" },
+      { url: "https://i.pinimg.com/236x/70/83/68/7083682a9c2f61df1b7ae84b8696b9ea.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/1b/b3/19/1bb3194bacdbf868df68cf069cc6ae7b.jpg", descripcion: "Wallpaper |spiderman" },
+
+  { url: "https://i.pinimg.com/236x/df/4f/cc/df4fcc221472caf300a1bb0e3d504293.jpg", descripcion: "Wallpaper| spiderman" },
+
+  { url: "https://i.pinimg.com/736x/69/6c/ca/696cca000f4338980732f13d17d56e42.jpg", descripcion: "Wallpaper|spiderman" },
+
+  { url: "https://i.pinimg.com/236x/7f/bc/d0/7fbcd064969fdb596a4425d492479d85.jpg", descripcion: "Wallpaper |spiderman" },
+
+  { url: "https://i.pinimg.com/236x/6c/25/d8/6c25d85b9ccfb308d558244118bdf0a0.jpg", descripcion: "Wallpaper|spiderman" },
+
+  { url: "https://i.pinimg.com/236x/23/d3/1d/23d31d57a2152ede48db7eebf16819df.jpg", descripcion: "Wallpaper|spiderman" },
+
+  { url: "https://i.pinimg.com/236x/e9/2b/94/e92b94d5215d3051d33a46aa4898e237.jpg", descripcion: "Wallpaper|spiderman" },
+
+  { url: "https://i.pinimg.com/236x/52/fa/90/52fa90eb89d1000bde75976d906fad2e.jpg", descripcion: "Wallpaper|spiderman" },
+
+  { url: "https://i.pinimg.com/236x/93/04/05/930405d6d8b59d984b458ab114ac2e8e.jpg", descripcion: "Wallpaper|spiderman" },
+
+{ url: "https://i.pinimg.com/236x/ad/fa/86/adfa86338fa7617d8285893e31004e6c.jpg", descripcion: "Wallpaper Goku" },
+
+  { url: "https://i.pinimg.com/236x/32/26/99/322699099ab3a1cb9ad04b1448bce1a0.jpg", descripcion: "Wallpaper Gohan" },
+      { url: "https://i.pinimg.com/236x/8b/7e/85/8b7e85054d6f27e68108d4a4cb103bb2.jpg", descripcion: "Wallpaper Gokú black" },
+
+  { url: "https://i.pinimg.com/236x/1f/68/f9/1f68f9af52e26053bddfd64627fab301.jpg", descripcion: "Wallpaper Gokú black" },
+
+  { url: "https://i.pinimg.com/236x/4b/e6/58/4be65840bc4250251bd082b5820e2413.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/e1/04/0d/e1040d9e56c47a2c54386406b77bf0ac.jpg", descripcion: "Wallpaper kakachi" },
+
+  { url: "https://i.pinimg.com/236x/a4/19/48/a41948e612b26215764705310a728ad9.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/4e/18/fa/4e18fa1cd64eaca40ba6298603beaaf4.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/17/cd/52/17cd52b348590fa0e6595cd22adde5cc.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/a2/4a/d2/a24ad2fc17bd2df68cf20d8512faf890.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/fa/94/a1/fa94a1916739c66631c0b2388d40afbd.jpg", descripcion: "Wallpaper" },
+      { url: "https://i.pinimg.com/236x/5c/83/97/5c839738be5b3655b91819027e4e9783.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/39/11/03/391103489fe37036a2df3e6f7657947e.jpg", descripcion: "Wallpaper" },
+
+     { url: "https://i.pinimg.com/236x/aa/14/92/aa149297c57b1325d82d4f815429e513.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/8b/d2/e1/8bd2e120445a29f092f8ad9466721b80.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/c9/62/00/c96200d259ba7a5d89050ff2fa6c5470.jpg", descripcion: "Wallpaper dardos" },
+
+  { url: "https://i.pinimg.com/236x/c2/cd/00/c2cd00a33d8e153b4c1c8bec6ce92589.jpg", descripcion: "Wallpaper dados" },
+
+  { url: "https://i.pinimg.com/236x/5c/04/28/5c04282cea3510d4b9c6348f9cf2c363.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/9a/52/66/9a5266bf8672da2eea5c2e6509265428.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/15/f7/cf/15f7cfe435fb460c4a4b15e65a1652fb.jpg", descripcion: "Wallpaper muerte" },
+
+  { url: "https://i.pinimg.com/236x/72/df/19/72df1986a31b0e258e2f7985d7373ddc.jpg", descripcion: "Wallpaper dados" },
+      { url: "https://i.pinimg.com/564x/74/1b/05/741b05a279ce67547b7cc74e50190b41.jpg", descripcion: "Wallpaper cubo" },
+
+  { url: "https://i.pinimg.com/236x/c1/c5/ba/c1c5ba5c1f0ad10ff534139ebd821325.jpg", descripcion: "Wallpaper dados" },
+
+  { url: "https://i.pinimg.com/236x/ff/75/c1/ff75c1fa4bef620789a8d872b73946c7.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/1b/3b/cf/1b3bcf2e3ef7f2b6b041c9cedb5ecb86.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/70/63/70/706370b2b3248e1d16cf1787eecaa906.jpg", descripcion: "Wallpaper" },
+      { url: "https://i.pinimg.com/236x/0c/12/d3/0c12d36dc178dd07524c1375c153ec76.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/42/a3/86/42a3864386c82336d502dfa730a1c63c.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/12/0c/38/120c38e33a63ddc57d53152ef990dddf.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/a7/3d/55/a73d551b3d85c487155fba0312d1cb71.jpg", descripcion: "Wallpaper encendedor" },
+   { url: "https://i.pinimg.com/564x/51/d8/ff/51d8ff26d7291d7d225edaa6e8ad9177.jpg", descripcion: "Wallpaper dados" },
+
+  { url: "https://i.pinimg.com/236x/7d/4c/ba/7d4cba6384165e7b2a3e8410b493a0bf.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/cf/b7/54/cfb754c1e170090f68f56637b080a3bc.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/bc/d2/d4/bcd2d414e74e6406944c2f04efce4f35.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/f6/70/32/f670325a11f622e44afd7c42bb4c52de.jpg", descripcion: "Wallpaper Ghost Rider" },
+
+  { url: "https://i.pinimg.com/236x/5c/6b/f0/5c6bf06a9cc3bb5625b41017cb329fbb.jpg", descripcion: "Wallpaper " },
+      { url: "https://i.pinimg.com/236x/fd/5d/16/fd5d166e7ea82104270469dd09f4fca9.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/e8/28/bb/e828bb3e9cda3e249620fe497428d4f3.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/f0/d9/ad/f0d9ad1bde2d605a8c9b72b2e483aa86.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/ee/e8/a7/eee8a76b1e9b916956d1288166f6ce00.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/60/fe/b4/60feb4bc0e0bb75f0a3bbd45cfa59d41.jpg", descripcion: "Wallpaper depredador" },
+
+  { url: "https://i.pinimg.com/236x/ae/04/d9/ae04d996ebb3598815dd39a6b2fa78d6.jpg", descripcion: "Wallpaper sub zero " },
+
+  { url: "https://i.pinimg.com/236x/1e/90/2f/1e902fc50bbd432c5a6aab1d33bf4832.jpg", descripcion: "Wallpaper Transformer " },
+
+  { url: "https://i.pinimg.com/236x/b3/3c/6a/b33c6aa045660e33fa5284c2187a7ed7.jpg", descripcion: "Wallpaper depredador" },
+
+  { url: "https://i.pinimg.com/236x/b7/f8/20/b7f8204cb06308fdf9945647e1c7620f.jpg", descripcion: "Wallpaper broli" }
+
+ { url: "https://i.pinimg.com/236x/b2/12/3d/b2123d6892548d576659900c73a3e0a0.jpg", descripcion: "Wallpaper spiderman" },
+
+  { url: "https://i.pinimg.com/236x/78/69/d6/7869d6898b7edc444025ae8ac967c9f1.jpg", descripcion: "Wallpaper" },
+      { url: "https://i.pinimg.com/236x/38/9d/af/389daf5731e1dbe4129e4c42514e206c.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/7d/15/d1/7d15d192e40ef4408fb703a740672c40.jpg", descripcion: "Wallpaper depredador" },
+
+  { url: "https://i.pinimg.com/236x/2e/22/33/2e2233ade1e0b3691d5926f01e229325.jpg", descripcion: "Wallpaper spiderman" },
+      { url: "https://i.pinimg.com/236x/0e/86/9a/0e869a2f2fed2492a0caaaf215781970.jpg", descripcion: "Wallpaper Mickey Mouse" },
+
+  { url: "https://i.pinimg.com/236x/60/07/51/60075135e97496de1379b925b29962ae.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/1a/ac/2e/1aac2eef05bf6ce7df9c027396da5840.jpg", descripcion: "Wallpaper depredador" },
+
+  { url: "https://i.pinimg.com/236x/02/14/9f/02149f0c58f3b99f9c84e37310f3a886.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/b5/f3/2a/b5f32af48f140724800fe1e71d3a274d.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/f2/15/7e/f2157ef58c4971213c3a9a5fa7ef52c4.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/3a/91/04/3a9104a2761a07c36720d792e18ac355.jpg", descripcion: "Wallpaper hulk" },
+
+  { url: "https://i.pinimg.com/236x/65/28/69/652869c8cc6354d7f84685fa9c497670.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/8b/41/7c/8b417ccf2ce6992e8e4665c5b425a05f.jpg", descripcion: "Wallpaper" },
+  { url: "https://i.pinimg.com/236x/71/a3/5c/71a35cd824492f9c0fed22c79f9ae294.jpg", descripcion: "Wallpaper Batman" },
+      { url: "https://i.pinimg.com/236x/9e/bd/d3/9ebdd37792114d481560ff844e99f9f6.jpg", descripcion: "Wallpaper depredador" },
+
+  { url: "https://i.pinimg.com/236x/61/5b/7e/615b7e2154e767ed9c4390fef0840357.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/fb/e4/d4/fbe4d44233ca8760f611538b78912f8d.jpg", descripcion: "Wallpaper Batman" },
+
+  { url: "https://i.pinimg.com/236x/46/e5/2b/46e52ba389a10f3a17e3d3fd4d9c5609.jpg", descripcion: "Wallpaper Batman" },
+
+  { url: "https://i.pinimg.com/236x/18/dc/a3/18dca33fbd63dd132711ecf0f5e9790e.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/474x/66/90/8f/66908fed374e293a5dba3995ac6d6ff8.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/3c/5e/e8/3c5ee88cb2bec3cadae22c937a4ee011.jpg", descripcion: "Wallpaper Batman" },
+
+  { url: "https://i.pinimg.com/236x/ca/95/e3/ca95e3b5a7bf8b2296983ee59ad00b54.jpg", descripcion: "Wallpaper Batman" },
+
+  { url: "https://i.pinimg.com/236x/95/a4/3b/95a43bf3fa2f58b4026b2242bcc670b9.jpg", descripcion: "Wallpaper Batman" },
+
+  { url: "https://i.pinimg.com/236x/99/ca/b7/99cab7feb745d57510c6d68a1a59ab93.jpg", descripcion: "Wallpaper " },
+
+  { url: "https://i.pinimg.com/236x/f4/a0/9e/f4a09e59de8b3e7391108404e0a042e2.jpg", descripcion: "Wallpaper Batman" },
+      { url: "https://i.pinimg.com/236x/8c/32/10/8c3210892a717492d1f5cace3013c4ca.jpg", descripcion: "Wallpaper Naruto" },
+
+  { url: "https://i.pinimg.com/236x/44/4f/cb/444fcbe2731b2245357ea4f8a1f9fd6a.jpg", descripcion: "Wallpaper" },
+
+   { url: "https://i.pinimg.com/236x/2b/a6/92/2ba6925fe2ea23f7344630b64dd1f8d1.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/2f/bd/88/2fbd8896364106f4278797e9ed41151c.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/9b/12/2a/9b122ae2840a3c70a9d7569d337058d1.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/54/e4/b1/54e4b10a09b277e158c281c4d1654df6.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/f4/76/d5/f476d5d7b597458aacb4ce1986976ad8.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/c3/25/71/c3257132c9f0da4237bdd24dd76a36f3.jpg", descripcion: "Wallpaper" },
+      
+
+  { url: "https://i.pinimg.com/236x/93/f1/91/93f19177c3dbae785f64152352beb157.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/a6/98/a0/a698a01a618e6068748f199a259c71bd.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/26/cd/f3/26cdf3f1717dc4b47a2e88119c19da57.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/10/e5/c9/10e5c9015f9887ba1e9277b82ce0f8ca.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/4d/a0/4d/4da04d7756991b40255790ce5dab3767.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/80/ca/13/80ca13b2ec55e2c41f060f50c8670998.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/8f/0d/de/8f0dde1cd446502941304a9a97c587d7.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/c6/42/d3/c642d39d2fe134a43381460b8d6b7dd7.jpg", descripcion: "Wallpapers" },
+
+   
+{ url: "https://i.pinimg.com/236x/b7/7b/3c/b77b3cd8cd2b5b334e784d1b583b0bc8.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/f1/b0/64/f1b064daa35e459650d179caa6473ad2.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/564x/26/56/f2/2656f210781977f9f9702c53111ac63e.jpg", descripcion: "Wallpaper9" },
+
+  { url: "https://i.pinimg.com/236x/c1/25/d9/c125d94d3fbed4a1a3ddc6cbca0134fb.jpg", descripcion: "Wallpapers" },
+
+  { url: "https://i.pinimg.com/236x/23/c0/d4/23c0d4cd9ff9e11a8173630a3d3d2998.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/4f/be/55/4fbe55354ca491767a735a69525b9d27.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/474x/e0/8b/08/e08b08724ed75215ba1c2c5c496ae846.jpg", descripcion: "Wallpaper" },
+
+  { url: "https://i.pinimg.com/236x/3e/a4/ed/3ea4ed1b0f537ecce1d8c26cac4c3741.jpg", descripcion: "Wallpaper" },
+
+
+
+
+
+   
+
+
+
+
+     
+
+
+
+
+     
+
+
+
+
+
+
+     
+
+
+
+     
     ],
   
   
