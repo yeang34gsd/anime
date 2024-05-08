@@ -5194,11 +5194,11 @@ const imagenesPorCategoria = {
     ],
 
 
-    "Futurista ": [
+    "Animales ": [
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+        { url: "https://i.pinimg.com/736x/14/5f/c5/145fc58a150bf3ff81d80586c53205d0.jpg", descripcion: "Descripción de la imagen 5" },
 
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+        { url: "https://i.pinimg.com/736x/81/55/2d/81552dc679917c78446037f8740853b4.jpg", descripcion: "Descripción de la imagen 6" },
 
     ],
   
