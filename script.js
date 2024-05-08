@@ -5350,7 +5350,7 @@ const imagenesPorCategoria = {
   { url: "https://i.pinimg.com/736x/79/49/d9/7949d9e444317f9353801ea78cc480b6.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/92/19/05/9219058e2922e1250370e6c031d51f27.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/00/5c/bf/005cbfa8c5c8bb5e95d71bbb58677a6b.jpg", descripcion: "naturaleza" },
-  { url: ""https://i.pinimg.com/736x/4f/2a/33/4f2a33fb5e474bdb699ad98f7b7823ab.jpg, descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/4f/2a/33/4f2a33fb5e474bdb699ad98f7b7823ab.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/f1/c2/2c/f1c22c0d6115e13adfed4f68eb0af550.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/d6/1e/23/d61e239bf647549c3c57339ceb78c41a.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/63/a0/db/63a0dbcb0ee6d8c5567186aa0d9a2a0d.jpg", descripcion: "naturaleza" },
