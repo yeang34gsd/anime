@@ -5394,8 +5394,26 @@ const imagenesPorCategoria = {
   { url: "https://i.pinimg.com/736x/28/c6/77/28c6774c98ca8e0d97e1abebe7b6e1b1.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/0d/b0/56/0db05675c2625b056b1df615520d9c93.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/64/c0/e5/64c0e5110688f9aedb524e808a6235ef.jpg", descripcion: "naturaleza" },
-
-
+  { url: "https://i.pinimg.com/736x/24/31/21/24312144061ab8b5ca9841cd53fe9d32.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/46/7c/9e/467c9e72911aca6cf7b73ff089b9ed62.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/a8/77/99/a877992093c864d2615c4e41a7aaa590.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/24/8f/49/248f4919f24af4b57cf9a381293aa685.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/80/4c/6c/804c6cba8005424c33e99ab5a7452d95.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/e9/da/23/e9da23d554b065498fdb9222fdbfc359.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/69/c0/84/69c08472d4ef8f1a675dbefcfe8fd763.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/50/fe/ef/50feef506369a7a51ebd8fab83f0334f.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/8f/8d/bc/8f8dbc79bdd74e18de7a414744438186.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/19/93/f4/1993f476f1c7f8cc402d22ac38a1293d.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/a0/63/7b/a0637b5ee2ffe18757494a775f9c5d06.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/04/e1/39/04e139308cca8f428761aa3e2f7cabdd.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/02/a9/ba/02a9ba9a5c06569663d7a290b9283c23.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/03/7d/61/037d6174e17ca011ce03ddd453353985.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/ea/1d/1f/ea1d1f39efeeb48ed13cf67a4818e241.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/f0/db/ae/f0dbae0c0bc589a36e09089dd80a7270.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/74/a7/93/74a793c530a9d03ba8c0852184a44753.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/25/20/74/2520746b075da0b5ed4981edd0f89db1.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/41/07/1b/41071b3b54e8845e4a61581b8462effb.jpg", descripcion: "naturaleza" },
+  { url: "https://i.pinimg.com/736x/f1/c2/22/f1c222de6440ddd8cdfbfe0880bdc247.jpg", descripcion: "naturaleza" },
 
 
  
