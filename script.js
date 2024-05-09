@@ -5212,7 +5212,7 @@ const imagenesPorCategoria = {
 { url: "https://i.pinimg.com/736x/c2/2b/dc/c22bdc8f297d2f03da416a78f00dba6f.jpg", descripcion: "perro" },
 { url: "https://i.pinimg.com/736x/cc/fd/9d/ccfd9dc9cc9dc2f90a65d095c1fc5391.jpg", descripcion: "perro" },
 { url: "https://i.pinimg.com/736x/40/4b/f2/404bf26205704b85eef64d752a49a56b.jpg", descripcion: "perro" },
-{ url: https://i.pinimg.com/736x/93/6e/b7/936eb778ef097433b8add41e9522b52d.jpg"", descripcion: "perro" },
+{ url: "https://i.pinimg.com/736x/93/6e/b7/936eb778ef097433b8add41e9522b52d.jpg", descripcion: "perro" },
 { url: "https://i.pinimg.com/736x/2e/5b/af/2e5bafeef81c70802c263eb3a8bf90c1.jpg", descripcion: "perro" },
 { url: "https://i.pinimg.com/736x/b7/32/ea/b732eab8b3c3d493a1ff21e611f3f31e.jpg", descripcion: "perro" },
 { url: "https://i.pinimg.com/736x/2c/67/42/2c6742afbdeaab45fe3b4c824096e6a0.jpg", descripcion: "perro" },
