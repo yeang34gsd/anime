@@ -6448,18 +6448,6 @@ const imagenesPorCategoria = {
   { url: "https://i.pinimg.com/736x/73/49/7b/73497bbfc74e6451e8b6c40351c4011a.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/08/4d/f9/084df979a3157f064b7b20ba07652e44.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/41/1b/60/411b60440a050601a83c475695fb7dee.jpg", descripcion: "naturaleza" },
-
-
-
-
-
-hhjjjj
-
-
-
-
-   
-   
   { url: "https://i.pinimg.com/736x/c6/f1/d0/c6f1d0ed4806fd2a4eb218ede2966224.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/8b/38/dd/8b38dd718a68a3c7901da36cbe31fc47.jpg", descripcion: "naturaleza" },
   { url: "https://i.pinimg.com/736x/84/2a/85/842a85272f0cd3a4c068d5b9b6e90090.jpg", descripcion: "naturaleza" },
