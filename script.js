@@ -5112,7 +5112,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     description: 'naturaleza',
     keywords: ['Paisajes naturales', 'Casas rurales', 'Entorno campestre', 'Naturaleza y arquitectura', 'Viviendas en entorno natural', 'Árboles']
   },
-  {
+  
     
   {
     imageUrl: 'https://i.pinimg.com/736x/5c/fa/f8/5cfaf8bb9b2a7922a77b83f17cc5c39c.jpg',
