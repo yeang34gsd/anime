@@ -6887,9 +6887,81 @@ const imagenesPorCategoria = {
 { url: "https://i.pinimg.com/474x/fb/99/83/fb99839d9b01f664142e1ba03f041610.jpg", descripcion: "Hinata" },
 
 { url: "https://i.pinimg.com/236x/b8/45/14/b845142e4da7781d666dcc1a010cb6b8.jpg", descripcion: "Hinata" },
-    
+    { url: "https://i.pinimg.com/236x/cd/e7/28/cde728da51c95c9dfd37cd70b4262a61.jpg", descripcion: "Sprigatito" },
 
+{ url: "https://i.pinimg.com/236x/d0/fa/1e/d0fa1ea3e8e8521b58f695b39a3fe767.jpg", descripcion: "Rosa" },
 
+{ url: "https://i.pinimg.com/236x/2a/ef/35/2aef35b71234bc90534a032ee95ec0b2.jpg", descripcion: "Yuzuriha" },
+
+{ url: "https://i.pinimg.com/236x/05/db/cb/05dbcb84a02ecf5ed451b8f663777bdf.jpg", descripcion: "Miku Nakano" },
+
+{ url: "https://i.pinimg.com/236x/0f/b9/33/0fb9333abd45ca2c5cc21a05c690f4e8.jpg", descripcion: "Zero Two" },
+
+{ url: "https://i.pinimg.com/236x/80/52/7d/80527d34f67ae12abd970345616c3d07.jpg", descripcion: "Amane" },
+
+{ url: "https://i.pinimg.com/236x/8c/c7/5f/8cc75fa4086649da462d5dbfdfa32074.jpg", descripcion: "kazumi" },
+
+{ url: "https://i.pinimg.com/236x/4e/38/0b/4e380ba92cd4c0a833835a8722ed18a1.jpg", descripcion: "kumi" },
+
+{ url: "https://i.pinimg.com/236x/a4/7a/d7/a47ad7c2ebfa4fad9e02442e8f3975c5.jpg", descripcion: "chisuru" },
+
+{ url: "https://i.pinimg.com/236x/ee/70/bc/ee70bc2008e31a724b60760370dd917e.jpg", descripcion: "naiko" },
+
+{ url: "https://i.pinimg.com/236x/6e/d3/08/6ed308f103115cf479e78d45303a146e.jpg", descripcion: "2B" },
+
+{ url: "https://i.pinimg.com/236x/97/1f/c6/971fc6372e372269d6e45b818cfc66a2.jpg", descripcion: "yuki" },
+{ url: "https://i.pinimg.com/236x/a7/e3/c7/a7e3c70a64f24d8d23c1fb3affa6dc98.jpg", descripcion: "Mitsuri Kanroji" },
+
+{ url: "https://i.pinimg.com/236x/de/70/69/de70697204bccb8471bb725138f2f393.jpg", descripcion: "yame" },
+   { url: "https://i.pinimg.com/236x/8a/47/5c/8a475c3f5f6987948e2b605a8784cd89.jpg", descripcion: "" },
+{ url: "https://i.pinimg.com/236x/cb/99/76/cb997637222cdc7345042937c55c319f.jpg", descripcion: "" },
+
+{ url: "https://i.pinimg.com/236x/f0/e0/c3/f0e0c33447757c1547f548146385a214.jpg", descripcion: "" },
+
+{ url: "https://i.pinimg.com/236x/05/ea/54/05ea54bb50d7eb7ba182406a5c4a808f.jpg", descripcion: "" },
+
+{ url: "https://i.pinimg.com/236x/40/1d/43/401d433ad08603504d21518b34dbffd8.jpg", descripcion: "kumi" },
+
+{ url: "https://i.pinimg.com/236x/ea/56/75/ea5675a751645d6f274a1b5971941ce1.jpg", descripcion: "" },
+    { url: "https://i.pinimg.com/236x/94/c2/30/94c230d62f30aaa2b2bf40ec34ea2276.jpg", descripcion: "Tengen Uzuinnkk" },
+{ url: "https://i.pinimg.com/236x/af/f1/26/aff12616ede7fc0b700de1cc39fdeab8.jpg", descripcion: "Nezuko Kamado" },
+  { url: "https://i.pinimg.com/236x/80/97/84/8097849375aecd0c5dc51506080dc63b.jpg", descripcion: "Ai Hoshino" },
+{ url: "https://i.pinimg.com/236x/a2/29/49/a2294925288fb6c7ce00955bc627ee6c.jpg", descripcion: "Morrigan Aensland" },
+    { url: "https://i.pinimg.com/236x/6d/6e/1d/6d6e1dc35622720e2c0167512d545fa8.jpg", descripcion: "Rem" },
+   { url: "https://i.pinimg.com/236x/8b/17/f4/8b17f4c33852aa3b41e25a10114356de.jpg", descripcion: "Nezuko Kamado" },
+   { url: "https://i.pinimg.com/236x/b4/83/da/b483daaad45bf85e176050690c8ac9a2.jpg", descripcion: "Cyberpunk" },
+   { url: "https://i.pinimg.com/236x/b0/af/7e/b0af7ef67587b0136172fde447827856.jpg", descripcion: "yuki" },
+   { url: "https://i.pinimg.com/236x/14/28/dd/1428ddf6e5bd189f619b93a42ef80e3b.jpg", descripcion: "Amane" },
+   { url: "https://i.pinimg.com/236x/e5/6b/65/e56b6525228c7bddb17c983acbb47b35.jpg", descripcion: "Roxy" },
+   { url: "https://i.pinimg.com/236x/53/e4/54/53e4541554e6dff9a7b8dc41dcf89dd2.jpg", descripcion: "M4 SOPMOD II"},
+{ url: "https://i.pinimg.com/236x/87/b6/f3/87b6f3fac6ef70e54f7b4edddb8dc77b.jpg", descripcion: "Asuma" },
+
+{ url: "https://i.pinimg.com/236x/6b/e8/a6/6be8a6c2295c5fae4e0ea3c70a18d200.jpg", descripcion: "Sumi" },
+
+{ url: "https://i.pinimg.com/236x/80/4c/06/804c06f0215986106b6699e0d858d692.jpg", descripcion: "Jinx" },
+{ url: "https://i.pinimg.com/236x/f7/0b/76/f70b76b3d4ebeac1f781c410ad29e9ad.jpg", descripcion: "Cyberpunk" },
+{ url: "https://i.pinimg.com/564x/0c/5f/84/0c5f84a2610b4ea006caf4e0fd7a5c37.jpg", descripcion: "alter jeanne" },
+{ url: "https://i.pinimg.com/236x/be/81/51/be8151a8b21101d816aef55e21316902.jpg", descripcion: "Katsumi" },
+
+{ url: "https://i.pinimg.com/236x/78/59/38/78593882919aa42d1d015da7f60567ed.jpg", descripcion: "Goddess of Victory: Nikke" },
+{ url: "https://i.pinimg.com/236x/c6/61/26/c66126fa8540005eec5e8ed342319def.jpg", descripcion: "Himiko Toga" },
+{ url: "https://i.pinimg.com/236x/aa/0b/c9/aa0bc9885a534be774d7043dd73e456b.jpg", descripcion: "Masaki" },
+
+{ url: "https://i.pinimg.com/236x/c4/0e/34/c40e3448d8ce70e1b0c23ce20ca1384e.jpg", descripcion: "roxy migurdia" },
+ { url: "https://i.pinimg.com/236x/c4/19/6a/c4196a030a011735b87de80855e02569.jpg", descripcion: "roxy migurdia" },
+{ url: "https://i.pinimg.com/236x/a0/dc/8b/a0dc8bb08473578d876215c3d63c4651.jpg", descripcion: "roxy migurdia" },
+
+{ url: "https://i.pinimg.com/236x/2d/bd/37/2dbd372f18faba876422cfd14d65331d.jpg", descripcion: "roxy migurdia" },
+
+{ url: "https://i.pinimg.com/236x/5a/fc/92/5afc92f681032e5e10639d451c19ed83.jpg", descripcion: "roxy migurdia" },
+
+{ url: "https://i.pinimg.com/236x/c7/2f/a6/c72fa61c1213fa01c88fc200715e109c.jpg", descripcion: "roxy migurdia" },
+
+{ url: "https://i.pinimg.com/236x/76/01/28/760128a12e83803c2a2c499736805ae0.jpg", descripcion: "roxy migurdia" },
+{ url: "https://i.pinimg.com/236x/de/dc/0d/dedc0d9dd873d8c9e40d46babebc74ab.jpg", descripcion: "roxy migurdia" },
+
+{ url: "https://i.pinimg.com/236x/9f/3e/54/9f3e542f824b1f81533ef1f84874c725.jpg", descripcion: "roxy migurdia" },
+   
    
         
     ],
