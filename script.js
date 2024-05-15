@@ -5863,7 +5863,46 @@ const imagenesPorCategoria = {
 { url: " https://i.pinimg.com/736x/cb/2d/7b/cb2d7be36979ebad31c5b1a136cc73bb.jpg", descripcion:  " " },
 { url: " https://i.pinimg.com/736x/e9/d6/08/e9d608e4542b5ba75151b042b2a10c60.jpg", descripcion:  " " },
 { url: " https://i.pinimg.com/736x/3b/d6/b9/3bd6b905eb45f50be39574bf9cfe1510.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/34/df/0c/34df0c31ab6423c82658456c89ec2036.jpg", descripcion:  " Nike" },
+{ url: " https://i.pinimg.com/736x/8b/00/09/8b0009b3e2651f2d7c103d87f8bea55a.jpg", descripcion:  " Nike" },
+{ url: " https://i.pinimg.com/736x/d1/72/5a/d1725a01a27728f9bc3f29d903d94d60.jpg", descripcion:  " Nike" },
+{ url: " https://i.pinimg.com/736x/93/03/9e/93039ed546945d76025824bf3b620ca1.jpg", descripcion:  " Nike" },
+{ url: " https://i.pinimg.com/736x/c8/7c/aa/c87caa9d18bbed1e63b952713d5fccb5.jpg", descripcion:  " Nike" },
+{ url: " https://i.pinimg.com/736x/1b/30/14/1b3014fa1d39183dad23a82357370c77.jpg", descripcion:  "Iron Man " },
+{ url: " https://i.pinimg.com/736x/db/8e/b0/db8eb0e94cc71cadba9a18efb1c1f67c.jpg", descripcion:  " Spider Man" },
+{ url: " https://i.pinimg.com/736x/1f/44/16/1f441697bae8de5c3bff36e6ec769791.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/ca/0e/fb/ca0efbe281fd0ba9a77b2b7276c71e59.jpg", descripcion:  " Botas Nike" },
+{ url: " https://i.pinimg.com/736x/99/fa/aa/99faaa8282a45dd32e2a0e9501007c64.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/5d/7f/a3/5d7fa33771bbbcdb5f87af81ab9fa952.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/d3/63/1c/d3631c1e9729ea97f677568fa9ab20f0.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/27/1c/b0/271cb005c1ebae5a935a2baaeba5452b.jpg", descripcion:  " chaqueta" },
+{ url: " https://i.pinimg.com/736x/78/93/34/7893348abcfc473910f3822e33237a60.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/b3/15/a4/b315a49fac64b712c2014a46998c5059.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/a5/1e/4c/a51e4c476c8c75e3ed906f397c67ede8.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/c9/51/af/c951af6bcdbd77c5fccc6732c77b8267.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/51/a9/f7/51a9f77446074303c9385a51069c0afe.jpg", descripcion:  " Spiderman" },
+{ url: " https://i.pinimg.com/736x/03/1a/2e/031a2ea13a12c231e8a5566884543a5a.jpg", descripcion:  " Venom" },
+{ url: " https://i.pinimg.com/736x/be/a0/9a/bea09aa1e9a2157c6dfc9ea896948332.jpg", descripcion:  "casco black panter" },
+{ url: " https://i.pinimg.com/736x/fe/93/fa/fe93fa518ab74962ee3c2fe45d646f49.jpg", descripcion:  " teléfono" },
+{ url: " https://i.pinimg.com/736x/58/bd/7b/58bd7bcf525c31c1f09507b8a11de256.jpg", descripcion:  " Spiderman" },
+{ url: " https://i.pinimg.com/736x/0b/7e/1d/0b7e1d1f31e8cdd7f8a9cef9ca3977fd.jpg", descripcion:  " habitación Superman" },
+{ url: " https://i.pinimg.com/736x/2b/c0/85/2bc0859ed5f6d7d1c86f3a4044f436ea.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/26/8b/2f/268b2ff3c1e13957de35e90ae6deb1ee.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/4b/f1/c2/4bf1c2617f3a4b611826d447447b553a.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/6f/bf/71/6fbf710fc286502860cfdb94363623d8.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/5c/10/4f/5c104f70610a10fdfc630863a275566e.jpg", descripcion:  " " },
+{ url: " https://i.pinimg.com/736x/4f/7e/80/4f7e8020ab986b83c4297b06dd3592c0.jpg", descripcion:  " " },
+
+
+
+
+
+
+     
     ],
+
+
+ 
 
     "wallpaper ": [
 { url: "https://i.pinimg.com/236x/c0/ee/d9/c0eed963cfbbb522cf5b69d9b4d35e7e.jpg", descripcion: "Wallpaper Nissan Skyline " },
