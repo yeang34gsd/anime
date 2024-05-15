@@ -5817,14 +5817,14 @@ const imagenesPorCategoria = {
 { url: " https://i.pinimg.com/736x/7c/a7/32/7ca7326b786ee920a9e1df391028f1f9.jpg", descripcion: " Tanjiro Kamado" },
 { url: " https://i.pinimg.com/736x/9f/d5/c1/9fd5c1b1f3e50aeb930ebc644744d91a.jpg", descripcion: " Pikachu" },
 { url: " https://i.pinimg.com/736x/c3/dd/cc/c3ddccc2c626d6a8b116d519553ee134.jpg", descripcion: " Pikachu" },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
-{ url: " ", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/45/2a/52/452a527f99de8a49377b57b830053fd8.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/f6/a4/e6/f6a4e6f59001260c24e683b4b34a1193.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/23/1e/32/231e32e1c52cfac49b706a8dd143602a.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/63/df/a7/63dfa7cfb225a896ab0fc5740437e7ea.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/27/c3/c2/27c3c231956c0d32c02900a79c58cda4.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/7b/94/a3/7b94a386aa2521899b66a0ecf6b684b6.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/7d/9c/02/7d9c02bb32f5c241a7559a94032af525.jpg", descripcion: " " },
+{ url: " https://i.pinimg.com/736x/fa/4b/06/fa4b06c35f752b40a84af335504a8bba.jpg", descripcion: " " },
 
      
     ],
@@ -5832,7 +5832,6 @@ const imagenesPorCategoria = {
     "moda": [
 
         { url: "imagen3.jpg", descripcion: "Descripción de la imagen 3" },
-
         { url: "imagen4.jpg", descripcion: "Descripción de la imagen 4" },
       { url: " ", descripcion:  " " },
 { url: " https://i.pinimg.com/736x/2e/7f/d4/2e7fd4085268bb358a994e6c53241e2d.jpg", descripcion:  "Camisa De goku" },
