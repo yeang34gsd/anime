@@ -14,18 +14,7 @@ header {
 #grid-container {
     column-count: 2;
     column-gap: 0px;
-}
-
-.card {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    position: relative;
-    max-width: 100%;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-    break-inside: avoid; /* Evitar que las tarjetas se dividan entre columnas */
+    text-align: center; /* Centrar las tarjetas horizontalmente */
 }
 
 .card img {
@@ -109,3 +98,5 @@ header {
 .grid-container {
     margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
 }
+
+/* Estilos adicionales si es necesario */
