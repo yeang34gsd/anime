@@ -14,7 +14,6 @@ header {
 #grid-container {
     column-count: 2;
     column-gap: 0px;
-    text-align: center; /* Centrar las tarjetas horizontalmente */
 }
 
 .card img {
