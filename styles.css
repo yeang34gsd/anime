@@ -1,177 +1,112 @@
 body {
-
     font-family: Arial, sans-serif;
-
     margin: 0;
-
     padding: 0;
-
 }
 
 header {
-
     background-color: #e60023;
-
     color: #fff;
-
     padding: 1px;
-
     text-align: center;
-
 }
 
 #grid-container {
-
     column-count: 2;
-
     column-gap: 0px;
-
-}
-
-
-
-.card img {
-
-    width: 100%;
-
-    height: 100%;
-
-    object-fit: cover;
-
-    display: block;
-
-}
-
-.download-icon {
-
-    position: absolute;
-
-    top: 5px;
-
-    right: 5px;
-
-    background-color: #fff;
-
-    border: 1px solid #ccc;
-    border-radius: 50%;
-
-    padding: 5px;
-
-    cursor: pointer;
-
-}
-
-.download-icon::after {
-
-    content: "\2B07"; /* Unicode para el ícono de descarga (flecha hacia abajo) */
-
-}
-
-.description {
-
-    position: absolute;
-
-    bottom: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    padding: 10px;
-
-    background-color: rgba(0, 0, 0, 0.4);
-
-    color: white;
-
-    text-align: center;
-
-}
-
-.search-container {
-
-    column-count: 2;
-
-    column-gap: 10px;
-
 }
 
 .card {
-
     border-radius: 8px;
-
     overflow: hidden;
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-
     position: relative;
-
     max-width: 100%;
-
     break-inside: avoid;
-
-    margin-bottom: 10px; /* Ajusta el margen inferior según tu preferencia */
-
-    margin-right: 5px; /* Ajusta el margen derecho según tu preferencia */
-
-    margin-left: 5px; /* Ajusta el margen izquierdo según tu preferencia */
-
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
+.download-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.download-icon::after {
+    content: "\2B07"; /* Unicode para el ícono de descarga (flecha hacia abajo) */
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+}
 
 .search-container {
+    column-count: 2;
+    column-gap: 10px;
+}
 
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+    max-width: 100%;
+    break-inside: avoid;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.search-container {
     position: fixed;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
     background-color: #fff;
-
-    padding: 8px 16px; /* Ajustar el espaciado interno */
-
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
-
+    padding: 8px 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     z-index: 999;
-
-    display: flex; /* Hacer que los elementos hijos se alineen horizontalmente */
-
-    align-items: center; /* Centrar verticalmente los elementos hijos */
-
+    display: flex;
+    align-items: center;
 }
 
 .search-container input[type="text"] {
-
-    flex: 1; /* Hacer que el input ocupe todo el espacio disponible */
-
+    flex: 1;
     border: none;
-
     outline: none;
-
     font-size: 16px;
-
-    padding: 8px 12px; /* Ajustar el espaciado interno */
-    border-radius: 20px; /* Bordes redondeados */
-
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Sutil sombra interior */
-
+    padding: 8px 12px;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para el ícono de búsqueda (puedes cambiarlo por el que desees) */
-
 .search-container .search-icon {
-
-    margin-right: 8px; /* Espacio entre el ícono y el input */
-
+    margin-right: 8px;
 }
 
 .grid-container {
-
-    margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
-
+    margin-top: 60px;
+    /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
 }
-
-/* Estilos adicionales si es necesario */
