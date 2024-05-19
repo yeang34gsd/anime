@@ -194,17 +194,20 @@
                     text-align: center;
                 }
                 .download-icon {
-                    position: absolute;
-                    top: 5px;
-                    right: 5px;
-                    background-color: #fff;
-                    border: 1px solid #ccc;
-                    border-radius: 50%;
-                    padding: 5px;
-                    cursor: pointer;
-                }
-                .download-icon::after {
-                    content: "\2B07";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px; /* Aumentar el padding para hacer el icono más grande */
+    cursor: pointer;
+}
+
+.download-icon::after {
+    content: "\2B07";
+    font-size: 16px; /* Ajustar el tamaño de la flecha */
+
                 }
             </style>
         </head>
