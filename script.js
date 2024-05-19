@@ -6333,18 +6333,16 @@ const imagenesPorCategoria = {
     ],
   "dibujos": [
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
+        { url: "https://i.pinimg.com/736x/7f/65/f8/7f65f80820cba777a667e35714669022.jpg", descripcion: "" },
 
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
-
+        
     ],
   
   
   "Artistas": [
 
-        { url: "imagen5.jpg", descripcion: "Descripción de la imagen 5" },
-
-        { url: "imagen6.jpg", descripcion: "Descripción de la imagen 6" },
+       
+        { url: "https://i.pinimg.com/736x/10/7a/50/107a50ae3e9af47377041abe3d82c1fc.jpg", descripcion: "" },
 
     ],
 
