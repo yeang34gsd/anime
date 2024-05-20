@@ -5639,12 +5639,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
 
-     
-
-
-     
-     
-
+   
      
 
 
@@ -5719,6 +5714,28 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 
 });
 
+function renderImages(images) {
+    gridContainer.innerHTML = '';
+    images.forEach(image => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        const img = document.createElement('img');
+        img.src = image.imageUrl;
+        img.loading = 'lazy'; // Agregar carga diferida aquí
+        const description = document.createElement('div');
+        description.classList.add('description');
+        description.textContent = image.description;
+        const downloadIcon = document.createElement('div');
+        downloadIcon.classList.add('download-icon');
+        downloadIcon.addEventListener('click', function() {
+            abrirVistaPrevia(image.imageUrl);
+        });
+        card.appendChild(img);
+        card.appendChild(description);
+        card.appendChild(downloadIcon);
+        gridContainer.appendChild(card);
+    });
+}
 
 
 
