@@ -5638,13 +5638,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     description: 'naturaleza',
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
-
-   
      
-
-
-
-    // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+// Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5712,30 +5707,19 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         }
     });
 
-});
-
-function renderImages(images) {
-    gridContainer.innerHTML = '';
-    images.forEach(image => {
-        const card = document.createElement('div');
-        card.classList.add('card');
-        const img = document.createElement('img');
-        img.src = image.imageUrl;
-        img.loading = 'lazy'; // Agregar carga diferida aquí
-        const description = document.createElement('div');
-        description.classList.add('description');
-        description.textContent = image.description;
-        const downloadIcon = document.createElement('div');
-        downloadIcon.classList.add('download-icon');
-        downloadIcon.addEventListener('click', function() {
-            abrirVistaPrevia(image.imageUrl);
-        });
-        card.appendChild(img);
-        card.appendChild(description);
-        card.appendChild(downloadIcon);
-        gridContainer.appendChild(card);
+    // Mezclar las imágenes al salir de la página
+    window.addEventListener('beforeunload', function() {
+        shuffle(imagesWithDescription);
+        renderImages(imagesWithDescription);
     });
-}
+
+});
+   
+     
+
+
+
+    
 
 
 
