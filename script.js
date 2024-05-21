@@ -5639,7 +5639,9 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
      
-// Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+
+
+     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5672,8 +5674,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             gridContainer.appendChild(card);
         });
     }
-
-    function buscarImagenes(query) {
+function buscarImagenes(query) {
         const resultados = imagesWithDescription.filter(image => {
             const descriptionMatch = image.description.toLowerCase().includes(query.toLowerCase());
             const keywordMatch = image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()));
@@ -5707,15 +5708,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         }
     });
 
-    // Mezclar las imágenes al salir de la página
-    window.addEventListener('beforeunload', function() {
-        shuffle(imagesWithDescription);
-        renderImages(imagesWithDescription);
-    });
-
 });
-   
-     
 
 
 
