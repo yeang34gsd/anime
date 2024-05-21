@@ -12,28 +12,32 @@ header {
 }
 
 #grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
-    padding: 0 5px; /* Ajusta el espacio interno del contenedor */
-    direction: ltr; /* Asegura que los elementos se carguen de izquierda a derecha */
+    column-count: 2;
+    column-gap: 0px;
 }
 
 .card {
-    flex: 0 0 calc(50% - 10px); /* Establece que cada ítem ocupe el 50% del ancho del contenedor con margen */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+    max-width: 100%;
     margin-bottom: 10px; /* Ajusta el margen inferior según tu preferencia */
+    margin-right: 5px; /* Ajusta el margen derecho según tu preferencia */
+    margin-left: 5px; /* Ajusta el margen izquierdo según tu preferencia */
+}
+
+/* Aplicar break-inside solo a la segunda columna */
+#grid-container > *:nth-child(odd) {
+    break-inside: avoid-column;
 }
 
 .card img {
     width: 100%;
-    height: auto; /* Para mantener la proporción de aspecto */
+    height: 100%;
     object-fit: cover;
     display: block;
 }
-
 .download-icon {
     position: absolute;
     top: 5px;
@@ -48,24 +52,18 @@ header {
 .download-icon::after {
     content: "\2B07";
     font-size: 16px; /* Ajustar el tamaño de la flecha */
+
 }
-.grid-item .description {
 
-            position: absolute;
-
-            bottom: 0;
-
-            left: 0;
-
-            width: 100%;
-
-            padding: 10px;
-
-            background-color: rgba(0, 0, 0, 0.7);
-
-            color: white;
-
-            text-align: center;
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
 }
 
 .search-container {
@@ -98,4 +96,4 @@ header {
 
 .grid-container {
     margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
-}
+        }
