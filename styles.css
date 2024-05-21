@@ -11,12 +11,10 @@ header {
     text-align: center;
 }
 
-.grid-container { /* Asegúrate de que el nombre del selector sea consistente */
+#grid-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Cambiar a flex-start para cargar de izquierda a derecha */
     padding: 0 5px; /* Ajusta el espacio interno del contenedor */
-    margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
 }
 
 .card {
@@ -25,8 +23,11 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 10px; /* Ajusta el margen inferior según tu preferencia */
-    margin-right: 5px; /* Espaciado derecho entre las tarjetas */
-    margin-left: 5px; /* Espaciado izquierdo entre las tarjetas */
+    margin-right: 5px; /* Añade margen derecho */
+}
+
+.card:nth-child(2n) {
+    margin-right: 0; /* Elimina el margen derecho del segundo ítem de cada fila */
 }
 
 .card img {
@@ -86,6 +87,11 @@ header {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Sutil sombra interior */
 }
 
+/* Estilos para el ícono de búsqueda (puedes cambiarlo por el que desees) */
 .search-container .search-icon {
     margin-right: 8px; /* Espacio entre el ícono y el input */
+}
+
+.grid-container {
+    margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
 }
