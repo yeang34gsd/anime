@@ -194,35 +194,25 @@
                     text-align: center;
                 }
                 .download-icon {
-                    position: absolute;
-                    top: 5px;
-                    right: 5px;
-                    background-color: transparent;
-                    border: 1px solid #ccc;
-                    border-radius: 50%;
-                    padding: 10px; /* Aumentar el padding para hacer el icono más grande */
-                    cursor: pointer;
-                }
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px; /* Aumentar el padding para hacer el icono más grande */
+    cursor: pointer;
+}
 
-                .download-icon::after {
-                    content: "\2B07";
-                    font-size: 16px; /* Ajustar el tamaño de la flecha */
+.download-icon::after {
+    content: "\2B07";
+    font-size: 16px; /* Ajustar el tamaño de la flecha */
+
                 }
             </style>
         </head>
         <body>
-            <div id="gallery" class="grid-container">
-                <!-- Aquí se cargarán dinámicamente las imágenes -->
-                <div class="grid-item">
-                    <img src="imagen1.jpg" loading="lazy" alt="Imagen 1">
-                    <div class="description">Descripción de la imagen 1</div>
-                </div>
-                <div class="grid-item">
-                    <img src="imagen2.jpg" loading="lazy" alt="Imagen 2">
-                    <div class="description">Descripción de la imagen 2</div>
-                </div>
-                <!-- Agrega más elementos .grid-item según sea necesario -->
-            </div>
+            <div id="gallery" class="grid-container"></div>
             <script src="gallery.js"></script>
         </body>
         </html>
