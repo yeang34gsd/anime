@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,7 +15,6 @@ header {
 #grid-container {
     column-count: 2;
     column-gap: 0px;
-    column-fill: balance; /* Para que las imágenes se carguen hacia abajo */
 }
 
 .card {
@@ -39,7 +39,6 @@ header {
     object-fit: cover;
     display: block;
 }
-
 .download-icon {
     position: absolute;
     top: 5px;
@@ -54,6 +53,7 @@ header {
 .download-icon::after {
     content: "\2B07";
     font-size: 16px; /* Ajustar el tamaño de la flecha */
+
 }
 
 .description {
