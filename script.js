@@ -5639,7 +5639,10 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
      
-      // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+
+
+        
+   // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5657,7 +5660,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             const card = document.createElement('div');
             card.classList.add('card');
             const img = document.createElement('img');
-            img.setAttribute('loading', 'lazy'); // Agregar atributo de carga diferida
             img.src = image.imageUrl;
             const description = document.createElement('div');
             description.classList.add('description');
@@ -5673,8 +5675,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             gridContainer.appendChild(card);
         });
     }
-
-    function buscarImagenes(query) {
+function buscarImagenes(query) {
         const resultados = imagesWithDescription.filter(image => {
             const descriptionMatch = image.description.toLowerCase().includes(query.toLowerCase());
             const keywordMatch = image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()));
@@ -5693,22 +5694,34 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         buscarImagenes(query);
     });
 
-    // Mezclar las imágenes solo una vez al cargar la página
+    // Mezclar las imágenes al cargar la página
     shuffle(imagesWithDescription);
     renderImages(imagesWithDescription);
 
+    document.getElementById("crear-button").addEventListener("click", function() {
+        var galeria = document.getElementById("grid-container");
+        if (galeria.style.display === "block") {
+            galeria.style.display = "none";
+            document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
+        } else {
+            galeria.style.display = "block";
+            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
+        }
+    });
+
 });
 
-document.getElementById("crear-button").addEventListener("click", function() {
-    var galeria = document.getElementById("grid-container");
-    if (galeria.style.display === "block") {
-        galeria.style.display = "none";
-        document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
-    } else {
-        galeria.style.display = "block";
-        document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
-    }
-});
+
+
+
+
+
+
+
+
+
+     
+
 
 const imagenesPorCategoria = {
 
