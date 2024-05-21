@@ -5693,26 +5693,22 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         buscarImagenes(query);
     });
 
-    // Mezclar las imágenes al cargar la página solo una vez
+    // Mezclar las imágenes solo una vez al cargar la página
     shuffle(imagesWithDescription);
     renderImages(imagesWithDescription);
 
-    document.getElementById("crear-button").addEventListener("click", function() {
-        var galeria = document.getElementById("grid-container");
-        if (galeria.style.display === "block") {
-            galeria.style.display = "none";
-            document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
-        } else {
-            galeria.style.display = "block";
-            document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
-        }
-    });
-
 });
 
-
-
-
+document.getElementById("crear-button").addEventListener("click", function() {
+    var galeria = document.getElementById("grid-container");
+    if (galeria.style.display === "block") {
+        galeria.style.display = "none";
+        document.getElementById("crear-form").style.display = "block"; // Mostrar el segundo código HTML
+    } else {
+        galeria.style.display = "block";
+        document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
+    }
+});
 
 const imagenesPorCategoria = {
 
