@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,6 +15,7 @@ header {
 #grid-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
     padding: 0 5px; /* Ajusta el espacio interno del contenedor */
 }
 
@@ -23,11 +25,6 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 10px; /* Ajusta el margen inferior según tu preferencia */
-    margin-right: 5px; /* Añade margen derecho */
-}
-
-.card:nth-child(2n) {
-    margin-right: 0; /* Elimina el margen derecho del segundo ítem de cada fila */
 }
 
 .card img {
