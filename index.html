@@ -21,124 +21,133 @@
         #crear-button {
             background-color: white;
         }
-    .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambia el tamaño de las columnas según tus necesidades */
-    gap: 10px;
-    padding: 5px;
-    }
-        }
-        .grid-item {
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-            flex: 1 1 calc(50% - 10px); /* Ajustar el tamaño de los elementos para ocupar el 50% del contenedor */
-            max-width: calc(50% - 10px); /* Asegurarse de que los elementos no superen el 50% del ancho del contenedor */
-            margin-bottom: 10px;
-        }
-        .grid-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .grid-item .description {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.4);
-            color: white;
-            text-align: center;
-        }
-        .download-icon {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            background-color: transparent;
-            border: 1px solid #ccc;
-            border-radius: 50%;
-            padding: 10px; /* Aumentar el padding para hacer el icono más grande */
-            cursor: pointer;
-        }
-        .download-icon::after {
-            content: "\2B07";
-            font-size: 16px; /* Ajustar el tamaño de la flecha */
-        }
-        .advertencia {
-            background-color: #FFA500; /* Color de fondo amarillo */
-            border: #FFA500; /* Borde sólido amarillo */
-            color: brown; /* Color de texto marrón */
-            padding: 15px;
-            text-align: center;
-            border-radius: 5px; /* Bordes redondeados */
-            margin-bottom: 20px; /* Espacio en la parte inferior */
-            font-size: 16px; /* Tamaño de fuente */
-            animation: pulse 1s infinite; /* Animación de pulsación infinita */
-        }
-        .advertencia strong {
-            color: brown; /* Color de texto marrón */
-        }
-        @keyframes pulse {
-            0% {
-                transform: scale(1); /* Escala inicial */
-            }
-            50% {
-                transform: scale(1.05); /* Escala aumentada */
-            }
-            100% {
-                transform: scale(1); /* Regresar a la escala inicial */
-            }
-        }
-        .categoria-btn {
-            background-color: rgb(255, 0, 0); /* Color de fondo rojo */
-            border: 2px solid rgb(255, 0, 0); /* Borde sólido rojo */
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 25px; /* Bordes redondeados */
-            transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
-        }
-        .categoria-btn:hover {
-            background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
-            border-color: #0056b3; /* Cambia el color del borde al pasar el mouse sobre el botón */
-        }
     </style>
     <div class="search-container">
-        <button id="crear-button">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAL0lEQVR4nGNgGAWjYCDAfzphBrpZNAoGP/hPr0j/P5q6RgEM0K1I+T9ado2C4QkAKPp3ibYBCjsAAAAASUVORK5CYII=">
-        </button>
-        <input type="text" id="search-input" placeholder="Buscar por descripción...">
+        <button id="crear-button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAL0lEQVR4nGNgGAWjYCDAfzphBrpZNAoGP/hPr0j/P5q6RgEM0K1I+T9ado2C4QkAKPp3ibYBCjsAAAAASUVORK5CYII="></button>
+    <input type="text" id="search-input" placeholder="Buscar por descripción...">
     </div>
     <div id="crear-form" style="display: none;">
         <div class="div-container">
             <h1></h1>
             <p></p>
-            <div class="advertencia">
-                <strong>⚠️ El buscador no funciona cuando presionas el botón categorías</strong>
-            </div>
-            <div class="categorias">
-                <button class="categoria-btn" onclick="mostrarCategoria('Animales')">Animales</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('naturaleza')">naturaleza</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('wallpaper')">wallpaper</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Chibi')">Chibi</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('moda')">moda</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Vehículos')">vehículos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">dibujos</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('memes')">memes</button>
-                <button class="categoria-btn" onclick="mostrarCategoria('Waifus')">Waifus</button>
-                <!-- Agrega más botones según las categorías que necesites -->
-            </div>
-        </div>
-    </div>
+            <style>
+
+    .advertencia {
+
+        background-color:#FFA500   ; /* Color de fondo amarillo */
+
+        border: #FFA500 ; /* Borde sólido amarillo */
+
+        color: ; /* Color de texto marrón */
+
+        padding: 15px;
+
+        text-align: center;
+
+        border-radius: 5px; /* Bordes redondeados */
+
+        margin-bottom: 20px; /* Espacio en la parte inferior */
+
+        font-size: 16px; /* Tamaño de fuente */
+
+        animation: pulse 1s infinite; /* Animación de pulsación infinita */
+
+    }
+
+    .advertencia strong {
+
+        color: ; /* Color de texto marrón */
+
+    }
+
+    @keyframes pulse {
+
+        0% {
+
+            transform: scale(1); /* Escala inicial */
+
+        }
+
+        50% {
+
+            transform: scale(1.05); /* Escala aumentada */
+
+        }
+
+        100% {
+
+            transform: scale(1); /* Regresar a la escala inicial */
+
+        }
+
+    }
+
+</style>
+
+<div class="advertencia">
+
+    <strong>⚠️ El buscador no funciona cuando presionas el botón categorías</strong>
+
+</div>
+<style>
+    .categoria-btn {
+        background-color: rgb(255, 0, 0); /* Color de fondo rojo */
+        border: 2px solid rgb(255, 0, 0); /* Borde sólido rojo */
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 25px; /* Bordes redondeados */
+        transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color de fondo y el texto */
+    }
+
+    .categoria-btn:hover {
+        background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+        border-color: #0056b3; /* Cambia el color del borde al pasar el mouse sobre el botón */
+    }
+</style>
+
+<div class="categorias">
+    <button class="categoria-btn" onclick="mostrarCategoria('Animales ')">Animales </button>
+
+    <button class="categoria-btn" onclick="mostrarCategoria('naturaleza ')">naturaleza</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('wallpaper ')">wallpaper</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria ('Chibi')">Chibi</button>
+   
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('moda')">moda</button>
+
+    <button class="categoria-btn" onclick="mostrarCategoria('Vehículos ')">vehículos</button>
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('dibujos')">dibujos</button>
+    
+    <button class="categoria-btn" onclick="mostrarCategoria('Artistas')">Artistas</button>
+    
+
+    <button class="categoria-btn" onclick="mostrarCategoria('memes')">memes</button>
+    
+
+   
+    <button class="categoria-btn" onclick="mostrarCategoria('Waifus')">Waifus</button>
+
+    
+   <!-- Agrega más botones según las categorías que necesites -->
+    
+</div>
+
+    
+</div>
+    
+
+          
     <div id="galeria-accion" class="galeria">
         <!-- Galería de imágenes de acción -->
     </div>
@@ -147,6 +156,66 @@
     </div>
     <div id="galeria-comedia" class="galeria">
         <!-- Galería de imágenes de comedia -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Grid de Imágenes</title>
+            <style>
+                .grid-container {
+                    column-count: 2;
+                    column-gap: 10px;
+                    padding: 5px;
+                }
+                .grid-item {
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    position: relative;
+                    max-width: 100%;
+                    break-inside: avoid;
+                    margin-bottom: 10px;
+                }
+                .grid-item img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+                .grid-item .description {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    color: white;
+                    text-align: center;
+                }
+                .download-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px; /* Aumentar el padding para hacer el icono más grande */
+    cursor: pointer;
+}
+
+.download-icon::after {
+    content: "\2B07";
+    font-size: 16px; /* Ajustar el tamaño de la flecha */
+
+                }
+            </style>
+        </head>
+        <body>
+            <div id="gallery" class="grid-container"></div>
+            <script src="gallery.js"></script>
+        </body>
+        </html>
     </div>
 </body>
 </html>
