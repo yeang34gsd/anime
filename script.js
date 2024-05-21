@@ -5639,9 +5639,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
      
-
-
-     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+      // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5659,6 +5657,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             const card = document.createElement('div');
             card.classList.add('card');
             const img = document.createElement('img');
+            img.setAttribute('loading', 'lazy'); // Agregar atributo de carga diferida
             img.src = image.imageUrl;
             const description = document.createElement('div');
             description.classList.add('description');
@@ -5674,7 +5673,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             gridContainer.appendChild(card);
         });
     }
-function buscarImagenes(query) {
+
+    function buscarImagenes(query) {
         const resultados = imagesWithDescription.filter(image => {
             const descriptionMatch = image.description.toLowerCase().includes(query.toLowerCase());
             const keywordMatch = image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()));
@@ -5693,7 +5693,7 @@ function buscarImagenes(query) {
         buscarImagenes(query);
     });
 
-    // Mezclar las imágenes al cargar la página
+    // Mezclar las imágenes al cargar la página solo una vez
     shuffle(imagesWithDescription);
     renderImages(imagesWithDescription);
 
@@ -5709,10 +5709,6 @@ function buscarImagenes(query) {
     });
 
 });
-
-
-
-    
 
 
 
