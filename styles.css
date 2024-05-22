@@ -8,15 +8,14 @@ header {
     background-color: #e60023;
     color: #fff;
     padding: 1px;
-    text-align: center;
+   -align: center;
 }
 
 #grid-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start; /* Cambiamos el valor a flex-start */
     padding: 0 5px;
-    column-gap: 10px; /* Agregamos el espaciado entre las columnas */
 }
 
 .card {
@@ -28,7 +27,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    break-inside: avoid; /* Evitamos que las tarjetas se dividan en columnas diferentes */
+    align-self: flex-start; /* Agregamos esta propiedad */
 }
 
 .card img {
@@ -91,22 +90,4 @@ header {
 
 .grid-container {
     margin-top: 60px;
-}
-
-@media (min-width: 768px) {
-    #grid-container {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 992px) {
-    #grid-container {
-        column-count: 3;
-    }
-}
-
-@media (min-width: 1200px) {
-    #grid-container {
-        column-count: 4;
-    }
 }
