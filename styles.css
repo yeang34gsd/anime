@@ -15,6 +15,7 @@ header {
     column-count: 2; /* Divide el contenedor en dos columnas */
     column-gap: 10px; /* Espacio entre las columnas */
     padding: 0 5px;
+    column-fill: balance; /* Distribuye las tarjetas de manera uniforme en las columnas */
 }
 
 .card {
