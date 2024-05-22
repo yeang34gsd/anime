@@ -24,10 +24,12 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
-    flex-direction: column; /* Ajuste para que las tarjetas se apilen verticalmente */
+    display: flex; /* Agregamos esta propiedad para permitir que los elementos se distribuyan verticalmente */
+    flex-direction: column;
 }
 
 .card img {
+    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible en la tarjeta */
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -51,10 +53,6 @@ header {
 }
 
 .description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
