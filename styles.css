@@ -12,25 +12,21 @@ header {
 }
 
 #grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    column-count: 2; /* Divide el contenedor en dos columnas */
+    column-gap: 10px; /* Espacio entre las columnas */
     padding: 0 5px;
 }
 
 .card {
-    flex: 0 0 calc(50% - 10px);
+    display: inline-block; /* Hace que las tarjetas se alineen correctamente */
+    width: 100%;
+    margin-bottom: 10px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    margin-bottom: 10px;
-    display: flex; /* Agregamos esta propiedad para permitir que los elementos se distribuyan verticalmente */
-    flex-direction: column;
-    position: relative; /* Agregamos posición relativa para que el icono de descarga sea relativo a la tarjeta */
 }
 
 .card img {
-    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible en la tarjeta */
     width: 100%;
     height: auto;
     object-fit: cover;
