@@ -1,6 +1,7 @@
  document.addEventListener('DOMContentLoaded', function () {
 
-    const imagesWithDescription = [
+    let imagesWithDescription = [
+     
 
         { 
     imageUrl: 'https://i.pinimg.com/236x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg', 
@@ -5638,21 +5639,18 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     description: 'naturaleza',
     keywords: ['anime', 'árboles', 'casas', 'natural']
   },
-     
 
 
-        
-   // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+
+     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
-
-    function shuffle(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
+    const loader = document.createElement('div');
+    loader.id = 'loader';
+    loader.classList.add('hidden');
+    loader.textContent = 'Cargando más imágenes...';
+    document.body.appendChild(loader);
 
     function renderImages(images) {
         gridContainer.innerHTML = '';
@@ -5675,7 +5673,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             gridContainer.appendChild(card);
         });
     }
-function buscarImagenes(query) {
+
+    function buscarImagenes(query) {
         const resultados = imagesWithDescription.filter(image => {
             const descriptionMatch = image.description.toLowerCase().includes(query.toLowerCase());
             const keywordMatch = image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()));
@@ -5694,8 +5693,27 @@ function buscarImagenes(query) {
         buscarImagenes(query);
     });
 
-    // Mezclar las imágenes al cargar la página
-    shuffle(imagesWithDescription);
+    function loadMoreImages() {
+        loader.classList.remove('hidden');
+        // Simular una carga de imágenes desde una fuente externa
+        setTimeout(function() {
+            // Duplicar y mezclar las imágenes existentes
+            const duplicatedImages = [...imagesWithDescription, ...imagesWithDescription];
+            imagesWithDescription = shuffle(duplicatedImages);
+            renderImages(imagesWithDescription);
+            loader.classList.add('hidden');
+        }, 2000); // Simulamos una demora de 2 segundos para cargar más imágenes
+    }
+
+    function handleScroll() {
+        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+        if (scrollTop + clientHeight >= scrollHeight - 5) {
+            loadMoreImages();
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
     renderImages(imagesWithDescription);
 
     document.getElementById("crear-button").addEventListener("click", function() {
@@ -5708,6 +5726,15 @@ function buscarImagenes(query) {
             document.getElementById("crear-form").style.display = "none"; // Ocultar el segundo código HTML
         }
     });
+
+    // Función para mezclar aleatoriamente un array
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
 
 });
 
