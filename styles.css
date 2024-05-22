@@ -16,6 +16,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 5px;
+    column-gap: 10px; /* Agregamos el espaciado entre las columnas */
 }
 
 .card {
@@ -24,13 +25,14 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
-    display: flex; /* Agregamos esta propiedad para permitir que los elementos se distribuyan verticalmente */
+    display: flex;
     flex-direction: column;
-    position: relative; /* Agregamos posición relativa para que el icono de descarga sea relativo a la tarjeta */
+    position: relative;
+    break-inside: avoid; /* Evitamos que las tarjetas se dividan en columnas diferentes */
 }
 
 .card img {
-    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible en la tarjeta */
+    flex: 1;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -89,4 +91,22 @@ header {
 
 .grid-container {
     margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    #grid-container {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    #grid-container {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    #grid-container {
+        column-count: 4;
+    }
 }
