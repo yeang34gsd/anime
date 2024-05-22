@@ -8,13 +8,13 @@ header {
     background-color: #e60023;
     color: #fff;
     padding: 1px;
-   -align: center;
+    text-align: center;
 }
 
 #grid-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Cambiamos el valor a flex-start */
+    justify-content: space-between;
     padding: 0 5px;
 }
 
@@ -24,14 +24,13 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
-    display: flex;
+    display: flex; /* Agregamos esta propiedad para permitir que los elementos se distribuyan verticalmente */
     flex-direction: column;
-    position: relative;
-    align-self: flex-start; /* Agregamos esta propiedad */
+    position: relative; /* Agregamos posición relativa para que el icono de descarga sea relativo a la tarjeta */
 }
 
 .card img {
-    flex: 1;
+    flex: 1; /* Hace que la imagen ocupe todo el espacio disponible en la tarjeta */
     width: 100%;
     height: auto;
     object-fit: cover;
