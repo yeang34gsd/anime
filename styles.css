@@ -26,6 +26,7 @@ header {
     margin-bottom: 10px;
     display: flex; /* Agregamos esta propiedad para permitir que los elementos se distribuyan verticalmente */
     flex-direction: column;
+    position: relative; /* Agregamos posición relativa para que el icono de descarga sea relativo a la tarjeta */
 }
 
 .card img {
