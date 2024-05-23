@@ -5641,7 +5641,9 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   },
 
 
-    // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+
+
+     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5665,7 +5667,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     });
 
     function renderImages(images) {
-        gridContainer.innerHTML = '';
         images.forEach(image => {
             const card = document.createElement('div');
             card.classList.add('card');
@@ -5711,26 +5712,23 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         loader.classList.remove('hidden');
         // Simular una carga de imágenes desde una fuente externa
         setTimeout(function() {
-            // Duplicar y mezclar las imágenes existentes
-            const duplicatedImages = [...imagesWithDescription, ...imagesWithDescription];
-            imagesWithDescription = shuffle(duplicatedImages);
-            renderImages(imagesWithDescription);
+            // Seleccionar 5 imágenes aleatorias
+            const newImages = [];
+            for (let i = 0; i < 5; i++) {
+                const randomIndex = Math.floor(Math.random() * imagesWithDescription.length);
+                newImages.push(imagesWithDescription[randomIndex]);
+            }
+            renderImages(newImages);
             loader.classList.add('hidden');
         }, 2000); // Simulamos una demora de 2 segundos para cargar más imágenes
     }
 
-    function handleScroll() {
-        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-        if (scrollTop + clientHeight >= scrollHeight - 5) {
-            loadMoreImages();
-        }
-    }
-
-    window.addEventListener('scroll', handleScroll);
+    // Cargar más imágenes cada 5 segundos
+    setInterval(loadMoreImages, 5000);
 
     // Mezclar las imágenes al cargar la página
     imagesWithDescription = shuffle(imagesWithDescription);
-    renderImages(imagesWithDescription);
+    renderImages(imagesWithDescription.slice(0, 5)); // Cargar las primeras 5 imágenes inicialmente
 
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
@@ -5753,6 +5751,15 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
 });
+
+
+
+
+
+
+
+
+     
     
 
 
