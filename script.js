@@ -5641,7 +5641,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   },
 
 
-     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+    // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -5651,13 +5651,28 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     loader.textContent = 'Cargando más imágenes...';
     document.body.appendChild(loader);
 
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                observer.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: '50px 0px 0px 0px',
+        threshold: 0.01
+    });
+
     function renderImages(images) {
         gridContainer.innerHTML = '';
         images.forEach(image => {
             const card = document.createElement('div');
             card.classList.add('card');
             const img = document.createElement('img');
-            img.src = image.imageUrl;
+            img.dataset.src = image.imageUrl;
+            img.alt = image.description;
+            observer.observe(img);
             const description = document.createElement('div');
             description.classList.add('description');
             description.textContent = image.description;
@@ -5705,8 +5720,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
     function handleScroll() {
-        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-        if (scrollTop + clientHeight >= scrollHeight - 5) {
+        const { scrollTop, clientHeight } = document.documentElement;
+        if (scrollTop === 0) {
             loadMoreImages();
         }
     }
