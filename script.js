@@ -5641,7 +5641,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   },
 
 
-
      // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
     ];
 
@@ -5714,6 +5713,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 
     window.addEventListener('scroll', handleScroll);
 
+    // Mezclar las imágenes al cargar la página
+    imagesWithDescription = shuffle(imagesWithDescription);
     renderImages(imagesWithDescription);
 
     document.getElementById("crear-button").addEventListener("click", function() {
@@ -5739,11 +5740,11 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 });
 
 
+   
 
 
 
-
-
+    
 
 
 
