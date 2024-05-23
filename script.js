@@ -5660,7 +5660,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             }
         });
     }, {
-        rootMargin: '50px 0px 0px 0px',
+        rootMargin: '0px 0px 50px 0px',
         threshold: 0.01
     });
 
@@ -5720,8 +5720,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
     function handleScroll() {
-        const { scrollTop, clientHeight } = document.documentElement;
-        if (scrollTop === 0) {
+        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+        if (scrollTop + clientHeight >= scrollHeight - 5) {
             loadMoreImages();
         }
     }
@@ -5753,17 +5753,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
 });
-
-
-   
-
-
-
     
-
-
-
-     
 
 
 const imagenesPorCategoria = {
