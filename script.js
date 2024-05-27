@@ -7011,19 +7011,9 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   },
 
 
-
-     
-
-
-     // Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
-    ];
+     ];
 
     const gridContainer = document.getElementById('grid-container');
-    const loader = document.createElement('div');
-    loader.id = 'loader';
-    loader.classList.add('hidden');
-    loader.textContent = 'Cargando más imágenes...';
-    document.body.appendChild(loader);
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -7039,7 +7029,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     });
 
     function renderImages(images) {
-        gridContainer.innerHTML = '';
         images.forEach(image => {
             const card = document.createElement('div');
             card.classList.add('card');
@@ -7068,6 +7057,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             const keywordMatch = image.keywords.some(keyword => keyword.toLowerCase().includes(query.toLowerCase()));
             return descriptionMatch || keywordMatch;
         });
+        gridContainer.innerHTML = ''; // Clear the container before rendering new results
         renderImages(resultados);
     }
 
@@ -7078,22 +7068,28 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     const searchInput = document.getElementById('search-input');
     searchInput.addEventListener('input', function(event) {
         const query = event.target.value.trim();
+        isSearching = query.length > 0;
         buscarImagenes(query);
     });
 
+    let currentImageIndex = 0;
+    let isSearching = false; // Bandera para controlar la búsqueda
+
     function loadMoreImages() {
-        loader.classList.remove('hidden');
+        if (isSearching) return; // No cargar más imágenes si estamos buscando
         // Simular una carga de imágenes desde una fuente externa
         setTimeout(function() {
-            // Duplicar y mezclar las imágenes existentes
-            const duplicatedImages = [...imagesWithDescription, ...imagesWithDescription];
-            imagesWithDescription = shuffle(duplicatedImages);
-            renderImages(imagesWithDescription);
-            loader.classList.add('hidden');
+            const newImages = imagesWithDescription.slice(currentImageIndex, currentImageIndex + 5);
+            currentImageIndex += 5;
+            if (currentImageIndex >= imagesWithDescription.length) {
+                currentImageIndex = 0;
+            }
+            renderImages(newImages);
         }, 2000); // Simulamos una demora de 2 segundos para cargar más imágenes
     }
 
     function handleScroll() {
+        if (isSearching) return; // No cargar más imágenes si estamos buscando
         const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
         if (scrollTop + clientHeight >= scrollHeight - 5) {
             loadMoreImages();
@@ -7104,7 +7100,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 
     // Mezclar las imágenes al cargar la página
     imagesWithDescription = shuffle(imagesWithDescription);
-    renderImages(imagesWithDescription);
+    loadMoreImages(); // Cargar las primeras imágenes al inicio
 
     document.getElementById("crear-button").addEventListener("click", function() {
         var galeria = document.getElementById("grid-container");
@@ -7129,14 +7125,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 });
 
 
-
-
-
-
-
-
-
-
+     
 
 
      
