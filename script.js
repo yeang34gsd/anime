@@ -7011,7 +7011,12 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   },
 
 
-     ];
+
+
+     
+
+// Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
+];
 
     const gridContainer = document.getElementById('grid-container');
 
@@ -7035,6 +7040,7 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             const img = document.createElement('img');
             img.dataset.src = image.imageUrl;
             img.alt = image.description;
+            img.loading = 'lazy';
             observer.observe(img);
             const description = document.createElement('div');
             description.classList.add('description');
@@ -7077,15 +7083,14 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 
     function loadMoreImages() {
         if (isSearching) return; // No cargar más imágenes si estamos buscando
-        // Simular una carga de imágenes desde una fuente externa
-        setTimeout(function() {
+        requestIdleCallback(() => {
             const newImages = imagesWithDescription.slice(currentImageIndex, currentImageIndex + 5);
             currentImageIndex += 5;
             if (currentImageIndex >= imagesWithDescription.length) {
                 currentImageIndex = 0;
             }
             renderImages(newImages);
-        }, 2000); // Simulamos una demora de 2 segundos para cargar más imágenes
+        });
     }
 
     function handleScroll() {
@@ -7123,10 +7128,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
 });
-
-
-     
-
 
      
         
