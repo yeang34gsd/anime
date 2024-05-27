@@ -7648,7 +7648,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
   keywords: []
 },
 
-
 ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -7666,8 +7665,20 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
         threshold: 0.01
     });
 
+    const lastImageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                loadMoreImages();
+                observer.unobserve(entry.target); // Deja de observar la última imagen para evitar cargas múltiples
+            }
+        });
+    }, {
+        rootMargin: '0px 0px 50px 0px',
+        threshold: 0.01
+    });
+
     function renderImages(images) {
-        images.forEach(image => {
+        images.forEach((image, index) => {
             const card = document.createElement('div');
             card.classList.add('card');
             const img = document.createElement('img');
@@ -7687,6 +7698,10 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             card.appendChild(description);
             card.appendChild(downloadIcon);
             gridContainer.appendChild(card);
+
+            if (index === images.length - 1) {
+                lastImageObserver.observe(card); // Observar la última tarjeta para carga infinita
+            }
         });
     }
 
@@ -7716,25 +7731,15 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 
     function loadMoreImages() {
         if (isSearching) return; // No cargar más imágenes si estamos buscando
-        requestIdleCallback(() => {
+        setTimeout(() => {
             const newImages = imagesWithDescription.slice(currentImageIndex, currentImageIndex + 5);
             currentImageIndex += 5;
             if (currentImageIndex >= imagesWithDescription.length) {
                 currentImageIndex = 0;
             }
             renderImages(newImages);
-        });
+        }, 500); // Reducir el tiempo de espera para una carga más rápida
     }
-
-    function handleScroll() {
-        if (isSearching) return; // No cargar más imágenes si estamos buscando
-        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-        if (scrollTop + clientHeight >= scrollHeight - 5) {
-            loadMoreImages();
-        }
-    }
-
-    window.addEventListener('scroll', handleScroll);
 
     // Mezclar las imágenes al cargar la página
     imagesWithDescription = shuffle(imagesWithDescription);
@@ -7761,9 +7766,16 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
 });
-     
-     
-     
+
+
+
+
+
+
+
+
+
+
         
 
 const imagenesPorCategoria = {
