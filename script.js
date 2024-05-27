@@ -7649,29 +7649,6 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
 },
 
 
-
-     
-     
-     
-     
-
-
-
-
-
-     
-
-
-
-
-     
-
-
-
-
-     
-
-// Agregar más objetos con URLs de imágenes, descripciones y palabras clave según sea necesario
 ];
 
     const gridContainer = document.getElementById('grid-container');
@@ -7784,7 +7761,8 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
     }
 
 });
-
+     
+     
      
         
 
