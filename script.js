@@ -11187,7 +11187,7 @@ const imagenesPorCategoria = {
     ],
   "dibujos": [
 
-        { url: "https://i.pinimg.com/736x/7f/65/f8/7f65f80820cba777a667e35714669022.jpg", descripcion: "" },
+        { url: "https://i.pinimg.com/736x/6f/87/a4/6f87a4c70c01ec405bf82c401293ddd9.jpg", descripcion: "" },
 
         
     ],
@@ -11196,7 +11196,7 @@ const imagenesPorCategoria = {
   "Artistas": [
 
        
-        { url: "https://i.pinimg.com/736x/10/7a/50/107a50ae3e9af47377041abe3d82c1fc.jpg", descripcion: "" },
+        { url: "https://i.pinimg.com/736x/6f/87/a4/6f87a4c70c01ec405bf82c401293ddd9.jpg", descripcion: "" },
 
     ],
 
