@@ -10741,6 +10741,72 @@ const imagenesPorCategoria = {
 
 
 
+
+
+
+
+
+     
+                     { url: " https://i.pinimg.com/736x/b2/70/1b/b2701b15bea67393fd6d6f4cc818f7c5.jpg  ", descripcion:  " goku" },
+{ url: "   https://i.pinimg.com/736x/20/82/9f/20829f5f629ccc6ab548d916211074d4.jpg", descripcion:  "goku " },
+{ url: "   https://i.pinimg.com/736x/c1/2c/b2/c12cb27c31de69c1681d093eab25f967.jpg", descripcion:  "Goku " },
+{ url: "   https://i.pinimg.com/736x/20/cf/9c/20cf9c7fd433e8738abcdfc6a808a854.jpg", descripcion:  "Goku " },
+{ url: "   https://i.pinimg.com/736x/94/8d/bb/948dbbddb5ea3840cbea8d5a27dc385b.jpg", descripcion:  " Goku" },
+{ url: "   https://i.pinimg.com/736x/df/ea/7f/dfea7faf0b86ff7925ea6c18c4b8e568.jpg", descripcion:  "Goku " },
+{ url: "   https://i.pinimg.com/736x/ca/90/b3/ca90b30ab88fc5d116c0072508b5e261.jpg", descripcion:  " Goku" },
+{ url: "   https://i.pinimg.com/736x/9b/62/de/9b62de5e2af612a27a7e104d84831693.jpg", descripcion:  " Goku" },
+{ url: "   https://i.pinimg.com/736x/2d/0b/25/2d0b25b28f424de46f5f157d9326e969.jpg", descripcion:  " goku" },
+{ url: "   https://i.pinimg.com/736x/33/81/50/338150de8bbe3bb9b3364e730a963b37.jpg", descripcion:  " tanjiro" },
+{ url: "   https://i.pinimg.com/236x/8b/3b/18/8b3b18240c39785ea850e47741c3ad70.jpg", descripcion:  " tanjoro" },
+{ url: "   https://i.pinimg.com/736x/bd/08/7e/bd087edd3102d05ed55fc25ef04ba481.jpg", descripcion:  "Trunks " },
+{ url: "   https://i.pinimg.com/736x/4c/68/ff/4c68ffd02e2220ec0b92f169f95d2e9f.jpg", descripcion:  "androide 18" },
+{ url: "   https://i.pinimg.com/236x/bb/9a/19/bb9a19d5389f0b498a74d37e52e172b8.jpg", descripcion:  " " },
+{ url: "   https://i.pinimg.com/236x/e1/9e/f5/e19ef55c206b2b7645d9db5004451187.jpg", descripcion:  " " },
+{ url: "   https://i.pinimg.com/236x/9a/b1/9c/9ab19c07cca629d25ac1ad85b658ace0.jpg", descripcion:  " Naruto" },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+{ url: "   ", descripcion:  " " },
+
+
      
     ],
 
