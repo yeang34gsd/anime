@@ -10369,10 +10369,83 @@ keywords: ['anime ', 'waifu ', 'chicas','xxxxxxx']
             downloadIcon.addEventListener('click', function() {
                 abrirVistaPrevia(image.imageUrl);
             });
-            card.appendChild(img);
+            const heartIcon = document.createElement('div');
+
+            heartIcon.className = 'heart-icon'; // Por defecto, el corazón es blanco
+
+            heartIcon.innerHTML = '&#x2661;'; // Corazón vacío como HTML entity
+
+            const likeCount = document.createElement('span');
+
+            likeCount.className = 'like-count';
+
+            likeCount.textContent = '0';
+
+            // Cargar el estado inicial del corazón y contador desde localStorage, si existe
+
+            const storageKey = 'like_' + image.imageUrl;
+
+            const liked = localStorage.getItem(storageKey) === 'true';
+
+            if (liked) {
+
+                heartIcon.classList.add('active');
+
+                heartIcon.innerHTML = '&#x2665;'; // Corazón lleno
+
+                likeCount.textContent = '1';
+
+            }
+
+            heartIcon.addEventListener('click', function() {
+
+             if (heartIcon.classList.contains('active')) {
+
+                    // Si ya está activo (rojo), desactivar (blanco)
+
+                    heartIcon.classList.remove('active');
+
+                    heartIcon.innerHTML = '&#x2661;'; // Corazón vacío
+
+                    likeCount.textContent = '0';
+
+                    // Eliminar del localStorage
+
+                    localStorage.removeItem(storageKey);
+
+                } else {
+
+                    // Si no está activo (blanco), activar (rojo)
+
+                    heartIcon.classList.add('active');
+
+                    heartIcon.innerHTML = '&#x2665;'; // Corazón lleno
+
+                    likeCount.textContent = '1';
+
+                    // Guardar en localStorage
+
+                    localStorage.setItem(storageKey, 'true');
+
+                }
+
+            });
+
+
+
+
+         card.appendChild(img);
+
             card.appendChild(description);
+
             card.appendChild(downloadIcon);
+
+            card.appendChild(heartIcon);
+
+            card.appendChild(likeCount);
+
             gridContainer.appendChild(card);
+            
 
             if (index === images.length - 1) {
                 lastImageObserver.observe(card); // Observar la última tarjeta para carga infinita
@@ -12430,13 +12503,86 @@ function mostrarCategoria(categoria) {
                 window.open(imagen.url, '_blank');
 
             });
-            gridItem.appendChild(img);
+         const heartIcon = document.createElement('div');
+
+            heartIcon.className = 'heart-icon'; // Por defecto, el corazón es blanco
+
+            heartIcon.innerHTML = '&#x2661;'; // Corazón vacío como HTML entity
+
+            const likeCount = document.createElement('span');
+
+            likeCount.className = 'like-count';
+
+            likeCount.textContent = '0';
+
+            // Cargar el estado inicial del corazón y contador desde localStorage, si existe
+
+            const storageKey = 'like_' + imagen.url;
+
+            const liked = localStorage.getItem(storageKey) === 'true';
+
+            if (liked) {
+
+                heartIcon.classList.add('active');
+
+                heartIcon.innerHTML = '&#x2665;'; // Corazón lleno
+
+                likeCount.textContent = '1';
+
+            }
+
+            heartIcon.addEventListener('click', function() {
+             if
+                  (heartIcon.classList.contains('active')) {
+
+                    // Si ya está activo (rojo), desactivar (blanco)
+
+                    heartIcon.classList.remove('active');
+
+                    heartIcon.innerHTML = '&#x2661;'; // Corazón vacío
+
+                    likeCount.textContent = '0';
+
+                    // Eliminar del localStorage
+
+                    localStorage.removeItem(storageKey);
+
+                } else {
+
+                    // Si no está activo (blanco), activar (rojo)
+
+                    heartIcon.classList.add('active');
+
+                    heartIcon.innerHTML = '&#x2665;'; // Corazón lleno
+
+                    likeCount.textContent = '1';
+
+                    // Guardar en localStorage
+
+                    localStorage.setItem(storageKey, 'true');
+
+                }
+
+            });
+
+
+
+
+         gridItem.appendChild(img);
 
             gridItem.appendChild(descripcion);
 
             gridItem.appendChild(downloadIcon);
 
+            gridItem.appendChild(heartIcon);
+
+            gridItem.appendChild(likeCount);
+
             galeria.appendChild(gridItem);
+
+
+         
+            
 
         });
 
