@@ -97,3 +97,58 @@ header {
 .grid-container {
     margin-top: 60px; /* Ajustar la posición del contenido para evitar que se superponga con la barra de búsqueda */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heart-icon {
+
+    position: absolute;
+
+    top: 1px;
+
+    right: 156px;
+
+    font-size: 25px;
+
+    color: white; /* Por defecto blanco */
+
+    cursor: pointer;
+
+}
+
+.heart-icon.active {
+
+    color: red; /* Cuando está activo, se vuelve rojo */
+
+}
+
+.like-count {
+
+    position: absolute;
+
+    top: 30px; /* Ajustar según diseño */
+
+    right: 167px; /* Ajustar según diseño */
+
+    font-size: 16px;
+
+    color: white;
+
+}
