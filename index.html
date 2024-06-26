@@ -394,3 +394,162 @@
 
 
 
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vídeo de YouTube en cuadro flotante</title>
+
+<style>
+
+    .video-container {
+
+        position: fixed;
+
+        bottom: 60px;
+
+        right: 0px;
+
+        width: 200px;
+
+        height: 190x; /* Aumentamos la altura para dejar espacio al botón de cerrar */
+
+        background-color: #fff;
+
+        border: 1px solid #ccc;
+
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+        overflow: hidden;
+
+    }
+
+    .video-container iframe {
+
+    width: 100%;
+
+        height: calc(134% - 80px); /* Ajustamos la altura del vídeo para dejar espacio al botón */
+
+        border: none;
+
+    }
+
+    .close-button {
+
+        position: absolute;
+
+        top: 5px;
+
+        right: 5px;
+
+        cursor: pointer;
+
+        background-color: #f1f1f1;
+
+        border: 1px solid #ccc;
+
+        padding: 3px 8px;
+
+        border-radius: 50%;
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="video-container" id="youtube-video">
+
+    <div class="close-button" onclick="closeAndReopen()">X</div>
+
+
+    <!-- Utiliza el enlace directo del vídeo de YouTube -->
+
+    <iframe id="youtube-iframe" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<script>
+
+// Función para cargar el vídeo de YouTube
+
+function loadYouTubeVideo(videoId) {
+
+    var videoContainer = document.getElementById('youtube-video');
+
+    var youtubeIframe = document.getElementById('youtube-iframe');
+
+    
+
+    // Mostrar el contenedor
+
+    videoContainer.style.display = 'block';
+
+    
+
+    // Cargar el vídeo de YouTube
+
+    youtubeIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&enablejsapi=1';
+
+    
+}
+
+// Función para cerrar y reaparecer el contenedor
+
+function closeAndReopen() {
+
+    var videoContainer = document.getElementById('youtube-video');
+
+    var youtubeIframe = document.getElementById('youtube-iframe');
+
+    
+
+    // Pausar el vídeo de YouTube
+
+    youtubeIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+
+    // Ocultar el contenedor
+
+    videoContainer.style.display = 'none';
+
+    // Mostrar el contenedor después de 3 segundos
+
+    setTimeout(function() {
+
+        videoContainer.style.display = 'block';
+
+        youtubeIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*'); // Reiniciar el iframe para evitar problemas de reproducción continua
+
+    }, 3000); // 3000 milisegundos = 3 segundos
+
+}
+
+
+    // Obtener el ID del vídeo de YouTube desde el enlace proporcionado
+
+var youtubeLink = 'https://youtu.be/4H0uI7ngxCg?si=f1eEIh7pvEyKa82C';
+
+var videoId = youtubeLink.split('/').pop().split('?')[0]; // Obtener el ID del vídeo
+
+loadYouTubeVideo(videoId); // Cargar el vídeo al inicio
+
+</script>
+
+</body>
+
+</html>
