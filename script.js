@@ -12711,6 +12711,6 @@ function createYouTubeFloatingBox(youtubeLink) {
 
 // Ejemplo de uso: llamar a la función createYouTubeFloatingBox con el enlace de YouTube deseado
 
-var youtubeLink = 'https://youtu.be/UuqPNTzAV6c?si=78iv8Jf3sWwV-Gzd';
+var youtubeLink = 'https://youtu.be/gL6iSCSHjco?si=4xolihEWb8QiTHVo';
 
 createYouTubeFloatingBox(youtubeLink);     
