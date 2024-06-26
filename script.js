@@ -12625,92 +12625,58 @@ window.onload = function() {
 
 
 // Función para crear el cuadro flotante de vídeo de YouTube
-
 function createYouTubeFloatingBox(youtubeLink) {
-
     var videoContainer = document.createElement('div');
-
     videoContainer.className = 'video-container';
-
     videoContainer.id = 'youtube-video';
 
     var closeButton = document.createElement('div');
-
     closeButton.className = 'close-button';
-
     closeButton.innerHTML = 'X';
-
     closeButton.onclick = function() {
-
         closeAndReopen();
-
     };
-
     videoContainer.appendChild(closeButton);
 
     var youtubeIframe = document.createElement('iframe');
-
     youtubeIframe.id = 'youtube-iframe';
-
     youtubeIframe.width = '100%';
-
     youtubeIframe.height = '100%';
-
     youtubeIframe.frameborder = '0';
-
     youtubeIframe.allowfullscreen = true;
-
     videoContainer.appendChild(youtubeIframe);
 
     document.body.appendChild(videoContainer);
- // Función para cargar el vídeo de YouTube
 
+    // Función para cargar el vídeo de YouTube
     function loadYouTubeVideo(videoId) {
-
         // Mostrar el contenedor
-
         videoContainer.style.display = 'block';
 
         // Cargar el vídeo de YouTube
-
         youtubeIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&enablejsapi=1';
-
     }
 
     // Función para cerrar y reaparecer el contenedor
-
     function closeAndReopen() {
-
         // Pausar el vídeo de YouTube
-
         youtubeIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 
         // Ocultar el contenedor
-
         videoContainer.style.display = 'none';
-      
 
         // Mostrar el contenedor después de 3 segundos
-
         setTimeout(function() {
-
             videoContainer.style.display = 'block';
-
-            youtubeIframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-         }, 10000); // 3000 milisegundos = 3 segundos
-
+            youtubeIframe.src = ''; // Reiniciar el iframe para evitar problemas de reproducción continua
+        }, 3000); // 3000 milisegundos = 3 segundos
     }
 
     // Obtener el ID del vídeo de YouTube desde el enlace proporcionado
-
     var videoId = youtubeLink.split('/').pop().split('?')[0]; // Obtener el ID del vídeo
-
     loadYouTubeVideo(videoId); // Cargar el vídeo al inicio
-
 }
 
 // Ejemplo de uso: llamar a la función createYouTubeFloatingBox con el enlace de YouTube deseado
-
-var youtubeLink = 'https://youtu.be/UuqPNTzAV6c?si=78iv8Jf3sWwV-Gzd';
-
+var youtubeLink = 'https://youtu.be/Ew1FpGz8pYw?si=9WqPs9MxiOHXJCIz';
 createYouTubeFloatingBox(youtubeLink);
