@@ -12620,3 +12620,102 @@ window.onload = function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// API Key de Google Cloud Platform (reemplaza 'YOUR_API_KEY' con tu clave API)
+const apiKey = 'YOUR_API_KEY';
+
+// Función para traducir automáticamente según el idioma del usuario
+async function translatePageToUserLanguage() {
+    try {
+        // Detectar el idioma del navegador del usuario
+        const userLanguage = navigator.language || navigator.userLanguage;
+        const targetLanguage = userLanguage.substring(0, 2); // Obtener el código de idioma (por ejemplo, 'es' para español)
+
+        // Obtener todos los elementos de texto que se pueden traducir
+        const elements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, button');
+
+        // Traducir cada elemento
+        for (const element of elements) {
+            const text = element.textContent;
+            const translatedText = await translateText(text, targetLanguage);
+            element.textContent = translatedText;
+        }
+    } catch (error) {
+        console.error('Error en la traducción automática:', error);
+    }
+}
+
+// Función para llamar a la API de Google Translate
+async function translateText(text, targetLanguage) {
+    const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            q: text,
+            target: targetLanguage,
+        }),
+    });
+
+    if (!response.ok) {
+        throw new Error('No se pudo traducir el texto.');
+    }
+
+    const data = await response.json();
+    return data.data.translations[0].translatedText;
+}
+
+// Llamar a la función de traducción al cargar la página
+translatePageToUserLanguage();
